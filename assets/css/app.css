@@ -26,6 +26,17 @@ body { }
 .content { }
 
 
+/* ==========================================================================
+   Home
+   ========================================================================== */
+.home-video{
+   background: url(../img/video-bg.jpg) cover no-repeat;
+}
+.testimonial-home{
+   background: url(../img/testimonial-bg.jpg) cover no-repeat;
+}
+
+
 
 /* ==========================================================================
    Primary Content
