@@ -32,9 +32,8 @@ var Roots = {
       // JavaScript to be fired on the home page
       //Call fitVids on homepage
       $('.vid-home').fitVids();
-      $('.testimonial-container').flexslider({
-        animation: 'slide'
-        });
+      $('.testimonial-container').flexslider();
+      console.log('home call is firing');
     }
   },
   // About us page, note the change from about-us to about_us.
