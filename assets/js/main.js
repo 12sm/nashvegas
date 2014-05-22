@@ -30,6 +30,8 @@ var Roots = {
   home: {
     init: function() {
       // JavaScript to be fired on the home page
+      //Call fitVids on homepage
+      $('.vid-home').fitVids();
     }
   },
   // About us page, note the change from about-us to about_us.
