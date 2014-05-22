@@ -30,10 +30,12 @@ body { }
    Home
    ========================================================================== */
 .home-video{
-   background: url(../img/video-bg.jpg) cover no-repeat;
+   background: url(../img/video-bg.jpg) no-repeat;
+   background-size: cover;
 }
 .testimonial-home{
-   background: url(../img/testimonial-bg.jpg) cover no-repeat;
+   background: url(../img/testimonial-bg.jpg) no-repeat;
+   background-size: cover;
 }
 
 
