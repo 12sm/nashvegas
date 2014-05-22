@@ -32,7 +32,9 @@ var Roots = {
       // JavaScript to be fired on the home page
       //Call fitVids on homepage
       $('.vid-home').fitVids();
-      $('.testimonial-container').flexslider();
+      $('.testimonial-container').flexslider(
+    animation: "slide"
+      });
       console.log('home call is firing');
     }
   },
