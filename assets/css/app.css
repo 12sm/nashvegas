@@ -33,7 +33,9 @@ background-color: rgba(204,204,204,.3)!important;
   display: inline-block;
   width: 14%;
   text-align: center;
-  background-color: rgba(204,204,204,.3)!important;
+}
+li .active>a{
+   background-color: rgba(204,204,204,.0)!important;
 }
 #menu-primary-navigation>li>a{
    padding: 10px 5px;
