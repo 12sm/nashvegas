@@ -46,6 +46,7 @@ width: 100%;
 .home-about{
    background: url(../img/about-bg.jpg) no-repeat;
    background-size: cover; 
+   padding: 0%;
 }
 .book-band{
    background: url(../img/booking-bg.jpg) no-repeat;
@@ -62,7 +63,6 @@ min-height: 750px;
 .book-content {
 text-align: center;
 }
-
 .banner-img {
 padding: 0!important;
 }
