@@ -11,14 +11,14 @@
      add_post_type_support( 'page', 'excerpt' );
 
 //
-
-		/*function about_page () {
+     	//[about]
+		function about_page () {
 		$page_id = 15;  //Page ID
 		$page_data = get_page( $page_id );
 		global $more;
 		$more = 0;
 		$content = apply_filters('the_content', $page_data->post_excerpt);
-		echo $content
+		echo $content;
 		}
 		add_shortcode( 'about', 'about_page' );*/
 
