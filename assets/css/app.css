@@ -41,8 +41,15 @@ margin-bottom: 0px;
 }
 .home-slide {
 padding: 3%;
+min-height: 650px;
 }
-
+.book-content {
+text-align: center;
+}
+.book-band{
+   background: url(../img/booking-bg.jpg) no-repeat;
+   background-size: cover;
+}
 
 /* ==========================================================================
    Primary Content
