@@ -34,7 +34,7 @@ background-color: rgba(204,204,204,.3)!important;
   width: 14%;
   text-align: center;
 }
-li .active>a{
+li.active>a{
    background-color: rgba(204,204,204,.0)!important;
 }
 #menu-primary-navigation>li>a{
