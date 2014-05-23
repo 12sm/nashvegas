@@ -50,6 +50,10 @@ text-align: center;
    background: url(../img/booking-bg.jpg) no-repeat;
    background-size: cover;
 }
+.songs-home{
+   background: url(../img/songlist-bg.png) no-repeat;
+   background-size: cover;
+}
 
 /* ==========================================================================
    Primary Content
