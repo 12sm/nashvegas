@@ -54,6 +54,9 @@ text-align: center;
    background: url(../img/songlist-bg.jpg) no-repeat;
    background-size: cover;
 }
+.banner-img {
+padding: 0!important;
+}
 
 /* ==========================================================================
    Primary Content
