@@ -43,12 +43,9 @@ width: 100%;
    background: url(../img/testimonial-bg.jpg) no-repeat;
    background-size: cover;
 }
-.home-slide {
-padding: 3%;
-min-height: 650px;
-}
-.book-content {
-text-align: center;
+.home-about{
+   background: url(../img/about-bg.jpg) no-repeat;
+   background-size: cover; 
 }
 .book-band{
    background: url(../img/booking-bg.jpg) no-repeat;
@@ -58,16 +55,21 @@ text-align: center;
    background: url(../img/songlist-bg.jpg) no-repeat;
    background-size: cover;
 }
+.home-slide {
+padding: 3%;
+min-height: 650px;
+}
+.book-content {
+text-align: center;
+}
+
 .banner-img {
 padding: 0!important;
 }
 .wpb_row.vc_row-fluid {
 margin-bottom: 0px;
 }
-.home-about{
-   background: url(../img/about-bg.jpg) no-repeat;
-   background-size: cover; 
-}
+
 /* ==========================================================================
    Primary Content
    ========================================================================== */
