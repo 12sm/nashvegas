@@ -159,7 +159,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
    display: none;
 }
 .collapse.navbar-collapse{
-margin: 0 auto;
+margin: 20px auto;
 max-width: 950px;
 background-color: rgba(204,204,204,.5);
 padding: 0 50px;
