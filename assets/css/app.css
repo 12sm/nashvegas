@@ -134,7 +134,7 @@ width: 100%;
 footer{
    background-image: -webkit-gradient(
   linear, left bottom, left top, from(rgba(0,0,0,1)),
-  to(rgba(0,0,0,0.2))
+  to(rgba(0,0,0,0.7))
 );
    /*background-color: #000;
    color: #fff;*/
