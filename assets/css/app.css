@@ -27,13 +27,13 @@ width: 100%;
 width: 100%;
 }
 .collapse.navbar-collapse{
-background-color: rgba(204,204,204,.5)!important;
+background-color: rgba(204,204,204,.3)!important;
 }
 #menu-primary-navigation>li{
   display: inline-block;
   width: 14%;
   text-align: center;
-  background-color: rgba(204,204,204,.5)!important;
+  background-color: rgba(204,204,204,.3)!important;
 }
 #menu-primary-navigation>li>a{
    padding: 10px 5px;
