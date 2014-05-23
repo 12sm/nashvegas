@@ -54,24 +54,24 @@ li.active>a{
 
 .home-video{
    background: url(../img/video-bg.jpg) no-repeat;
-   background-size: cover;
+   background-size: 100%;
 }
 .testimonial-home{
    background: url(../img/testimonial-bg.jpg) no-repeat;
-   background-size: cover;
+   background-size: 100%;
 }
 .home-about{
    background: url(../img/about-bg.jpg) no-repeat;
-   background-size: cover; 
+   background-size: 100%; 
    padding: 0%!important;
 }
 .book-band{
    background: url(../img/booking-bg.jpg) no-repeat;
-   background-size: cover;
+   background-size: 100%;
 }
 .songs-home{
    background: url(../img/songlist-bg.jpg) no-repeat;
-   background-size: cover;
+   background-size: 100%;
 }
 .home-slide {
 padding: 3%;
