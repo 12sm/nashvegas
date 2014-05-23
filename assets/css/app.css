@@ -25,9 +25,17 @@ width: 100%;
 }
 #menu-primary-navigation{
 width: 100%;
+display: table;
+  table-layout: fixed;
 }
 .collapse.navbar-collapse{
 background-color: rgba(204,204,204,.5);
+}
+
+#menu-primary-navigation>li{
+  display: table-cell;
+  width: auto;
+  text-align: center;
 }
 
 /* ==========================================================================
