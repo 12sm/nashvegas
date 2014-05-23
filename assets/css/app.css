@@ -25,15 +25,13 @@ width: 100%;
 }
 #menu-primary-navigation{
 width: 100%;
-display: table;
-  table-layout: fixed;
 }
 .collapse.navbar-collapse{
 background-color: rgba(204,204,204,.5);
 }
 #menu-primary-navigation>li{
-  display: table-cell;
-  width: auto;
+  display: inline-block;
+  width: 14%;
   text-align: center;
 }
 
@@ -47,6 +45,7 @@ background-color: rgba(204,204,204,.5);
 /* ==========================================================================
    Home
    ========================================================================== */
+
 .home-video{
    background: url(../img/video-bg.jpg) no-repeat;
    background-size: cover;
