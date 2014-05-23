@@ -39,7 +39,9 @@ margin-bottom: 0px;
    background: url(../img/testimonial-bg.jpg) no-repeat;
    background-size: cover;
 }
-
+.home-slide {
+padding: 3%;
+}
 
 
 /* ==========================================================================
