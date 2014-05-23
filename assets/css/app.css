@@ -125,7 +125,15 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* No media query since this is the default in Bootstrap */
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm) { }
+@media (min-width: @screen-sm) {
+.navbar-brand{
+   display: none;
+}
+.collapse.navbar-collapse {
+margin: 0 auto;
+max-width: 750px;
+}
+ }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: @screen-md) { }
