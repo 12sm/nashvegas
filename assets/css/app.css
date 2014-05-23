@@ -63,7 +63,7 @@ li.active>a{
 .home-about{
    background: url(../img/about-bg.jpg) no-repeat;
    background-size: cover; 
-   padding: 0%!important;
+   padding-bottom: 0%!important;
 }
 .book-band{
    background: url(../img/booking-bg.jpg) no-repeat;
@@ -89,8 +89,7 @@ padding: 0!important;
 margin-bottom: 0px;
 }
 img.img-responsive.taryn {
-min-height: 100%;
-width: 100%;
+width: 85%;
 }
 /* ==========================================================================
    Primary Content
