@@ -132,12 +132,13 @@ width: 100%;
 #social li a {padding: 10px;}
 
 footer{
+   /* I miiiiiight use this again later
    background-image: -webkit-gradient(
   linear, left bottom, left top, from(rgba(0,0,0,1)),
   to(rgba(0,0,0,0.7))
-);
-   /*background-color: #000;
-   color: #fff;*/
+);*/
+   background-color: #000;
+   color: #fff;
 }
 
 
