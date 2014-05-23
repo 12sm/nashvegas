@@ -7,6 +7,22 @@
  * instead of template_directory
  */
 
+//Excerpt function
+     add_post_type_support( 'page', 'excerpt' );
+
+//
+
+		function about_page () {
+		$page_id = 15;  //Page ID
+		$page_data = get_page( $page_id );
+		global $more;
+		$more = 0;
+		$content = apply_filters('the_content', $page_data->post_excerpt);
+		echo $content
+		}
+		add_shortcode( 'about', 'about_page' );
+
+
 define( 'OPTIONS_FRAMEWORK_DIRECTORY', get_template_directory_uri() . '/inc/' );
 require_once dirname( __FILE__ ) . '/inc/options-framework.php';
 
