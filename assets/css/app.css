@@ -23,6 +23,9 @@ border: 0px solid!important;
 position: absolute;
 width: 100%;
 }
+#menu-primary-navigation{
+width: 100%;
+}
 
 
 /* ==========================================================================
@@ -144,9 +147,11 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 .navbar-brand{
    display: none;
 }
-.collapse.navbar-collapse {
+.collapse.navbar-collapse{
 margin: 0 auto;
-max-width: 750px;
+max-width: 950px;
+background-color: rgba(204,204,204,.5);
+padding: 0 50px;
 }
 
  }
