@@ -20,7 +20,7 @@
 		$content = apply_filters('the_content', $page_data->post_excerpt);
 		echo $content;
 		}
-		add_shortcode( 'about', 'about_page' );*/
+		add_shortcode( 'about', 'about_page' );
 
 
 define( 'OPTIONS_FRAMEWORK_DIRECTORY', get_template_directory_uri() . '/inc/' );
