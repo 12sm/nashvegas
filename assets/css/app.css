@@ -108,6 +108,7 @@ color: #fff;
 .song-list {
 list-style: none;
 text-align: center;
+padding-left: 0;
 }
 .song-title{
   font-family: 'facet';
