@@ -86,6 +86,9 @@ li.active>a{
 .songs-home .title-img{
   margin-left: 9%;
 }
+.title-img{
+  width: 100%;
+}
 .home-slide {
 padding: 3%;
 min-height: 750px;
