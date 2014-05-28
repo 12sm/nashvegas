@@ -103,13 +103,13 @@ list-style: none;
 text-align: center;
 }
 .song-title{
-  font-family: 'jaf-facitweb';
+  font-family: 'facet';
   font-size: 32px;
   color: #182a49;
   text-transform: uppercase;
 }
 .artist{
-  font-family: 'jaf-facitweb';
+  font-family: 'facet';
   font-size: 32px;
   color: #21a7b5;
   text-transform: uppercase;
