@@ -13,6 +13,10 @@ body { }
 margin-bottom: 0px;
 }
 
+h1,h2,h3,h4,h5,h6,p{
+  font-family: 'proxima-nova';
+}
+
 /* ==========================================================================
    Header
    ========================================================================== */
@@ -97,6 +101,12 @@ color: #fff;
 .song-list {
 list-style: none;
 text-align: center;
+}
+.pink{
+  font-family: "jaf-facitweb";
+  font-size: 32px;
+  color: #b4148a;
+  text-transform: uppercase;
 }
 /* ==========================================================================
    Primary Content
