@@ -19,11 +19,27 @@ src: url(../fonts/facet.ttf);
 h1,h2,h3,h4,h5,h6,p{
   font-family: 'proxima-nova';
 }
+h2{
+  font-weight: lighter;
+  color: #fff;
+  text-transform: uppercase;
+}
 h4{
   font-family: 'proxima-nova';
   color: #fff;
   font-size: 23px;
   font-weight: lighter;
+}
+h3{
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+a.btn{
+  font-size: 43px;
+  font-weight: lighter;
+  color: #fff;
+  text-transform: uppercase;
 }
 p{
   font-size: 18px;
@@ -342,7 +358,13 @@ padding: 0 50px;
 .songs-home .title-img{
   margin-left: 7%;
 }
+h2{
+  font-size: 68px;
  }
+ h3{
+  font-size: 23px;
+ }
+}
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px ) { }
