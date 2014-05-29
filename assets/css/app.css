@@ -16,11 +16,11 @@ margin-bottom: 0px;
 font-family: facet;
 src: url(../fonts/facet.ttf);
 }
-h1,h2,h3,h4,h5,h6,p{
+h1,h2,h3,h4,h5,h6,p,a{
   font-family: 'proxima-nova';
 }
 h2{
-  font-weight: lighter;
+  font-weight: 100;
   color: #fff;
   text-transform: uppercase;
 }
