@@ -131,10 +131,11 @@ padding-left: 0;
   text-transform: uppercase;
 }
 .pink{
-  font-family: "jaf-facitweb";
+  font-family: "facet";
   font-size: 32px;
   color: #b4148a;
   text-transform: uppercase;
+  text-align: center;
 }
 .testimonial-content>*{
   text-align: center;
