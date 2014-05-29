@@ -182,7 +182,7 @@ padding-left: 0;
   color: #fff;
   font-weight: 600;
 }
-.about-title-home>*>img {
+.about-title-home>*>img, .about-title>*>img{
 width: 65%;
 height: auto;
 }
