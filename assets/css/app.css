@@ -131,7 +131,7 @@ padding: 0!important;
 .wpb_row.vc_row-fluid {
 margin-bottom: 0px;
 }
-img.img-responsive.taryn {
+img.img-responsive.taryn, .taryn>*>img{
 width: 85%;
 }
 .book-content > * {
