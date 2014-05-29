@@ -103,8 +103,6 @@ li.active>a{
 .book-band{
    background: url(../img/booking-bg.jpg) no-repeat;
    background-size: cover;
-   background-position-y: -200px;
-   min-height: 900px!important;
 }
 .songs-home{
    background: url(../img/songlist-bg.jpg) no-repeat;
@@ -364,6 +362,10 @@ h2{
  h3{
   font-size: 23px;
  }
+ .book-band{
+   background-position-y: -75px;
+   min-height: 900px!important;
+}
 }
 
 /* Medium devices (desktops, 992px and up) */
