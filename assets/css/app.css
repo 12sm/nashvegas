@@ -136,6 +136,9 @@ padding-left: 0;
   color: #b4148a;
   text-transform: uppercase;
 }
+.testimonial-content>*{
+  text-align: center;
+}
 .testimonial-content h1{
   font-family: 'proxima-nova';
   font-size: 50px;
