@@ -19,7 +19,12 @@ src: url(../fonts/facet.ttf);
 h1,h2,h3,h4,h5,h6,p{
   font-family: 'proxima-nova';
 }
-
+h4{
+  font-family: 'proxima-nova';
+  color: #fff;
+  font-size: 23px;
+  font-weight: lighter;
+}
 /* ==========================================================================
    Header
    ========================================================================== */
@@ -137,6 +142,17 @@ padding-left: 0;
   color: #fff;
   font-weight: lighter;
   font-style: italic;
+}
+.occupation{
+  font-size: 13px;
+  font-family:'proxima-nova semibold';
+  color: #fff;
+}
+.date{
+  font-size: 13px;
+  font-family: 'proxima-nova semibold';
+  text-transform: uppercase;
+  color: #fff;
 }
 /* ==========================================================================
    Primary Content
