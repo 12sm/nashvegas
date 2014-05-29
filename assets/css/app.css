@@ -148,14 +148,14 @@ padding-left: 0;
 }
 .occupation{
   font-size: 13px;
-  font-family:'proxima-nova semibold';
   color: #fff;
+  font-weight: 600;
 }
 .date{
   font-size: 13px;
-  font-family: 'proxima-nova semibold';
   text-transform: uppercase;
   color: #fff;
+  font-weight: 600;
 }
 /* ==========================================================================
    Primary Content
