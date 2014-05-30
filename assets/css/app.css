@@ -199,6 +199,9 @@ font-weight: 400;
 font-family: 'facet';
 text-transform: uppercase;
 }
+.about-about {
+padding-top: 5%;
+}
 .faq-body{
 text-align: center;
 padding: 0 30%;
