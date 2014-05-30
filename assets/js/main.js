@@ -38,9 +38,14 @@ var Roots = {
     }
   },
   // About us page, note the change from about-us to about_us.
-  about_us: {
+  about: {
     init: function() {
       // JavaScript to be fired on the about us page
+
+      //toggle commpressed faqs
+      $('.faq-list li').click(function(){
+        this.toggleClass('compressed');
+      });
     }
   }
 };
