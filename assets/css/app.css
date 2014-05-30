@@ -217,6 +217,15 @@ font-weight: 400;
   background: url(../img/about-bg.jpg) no-repeat;
   background-size: cover;
 }
+.compressed .answer{
+  display: none;
+}
+.compressed .question .fa:before{
+  content: "\f0fe";
+}
+.question .fa:before{
+  content: "\f146";
+}
 /* ==========================================================================
    Primary Content
    ========================================================================== */
