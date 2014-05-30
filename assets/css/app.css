@@ -12,6 +12,9 @@ body { }
 .banner {
 margin-bottom: 0px;
 }
+.banner-img>img {
+width: 100%;
+}
 @font-face{
 font-family: facet;
 src: url(../fonts/facet.ttf);
