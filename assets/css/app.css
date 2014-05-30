@@ -208,6 +208,9 @@ color: #fff;
   color: #47C4D2;
   font-size: 28px;
 }
+.faq-list{
+  list-style: none;
+}
 .about-faq{
   background: url(../img/about-bg.jpg) no-repeat;
   background-size: cover;
