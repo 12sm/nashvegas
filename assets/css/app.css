@@ -199,6 +199,11 @@ font-weight: 400;
 font-family: 'facet';
 text-transform: uppercase;
 }
+.faq-body {
+text-align: center;
+padding: 0 30%;
+color: #fff;
+}
 /* ==========================================================================
    Primary Content
    ========================================================================== */
