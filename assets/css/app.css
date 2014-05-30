@@ -214,7 +214,7 @@ font-weight: 400;
   list-style: none;
 }
 .about-faq{
-  background: url(../img/about-bg.jpg) no-repeat;
+  background: url(../img/faq-bg.jpg) no-repeat;
   background-size: cover;
 }
 .compressed .answer{
