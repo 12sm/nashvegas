@@ -44,7 +44,7 @@ var Roots = {
 
       //toggle commpressed faqs
       $('.faq-list li').click(function(){
-        this.toggleClass('compressed');
+        $(this).toggleClass('compressed');
       });
     }
   }
