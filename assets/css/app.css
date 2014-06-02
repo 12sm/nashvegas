@@ -234,6 +234,17 @@ font-weight: 400;
 .question .fa:before{
   content: "\f146";
 }
+.about-performances {
+text-align: center;
+background: url(../img/pp-bg.jpg) no-repeat;
+background-size: cover;
+}
+.past-perf-heading h5 {
+font-size: 32px;
+font-family: 'facet';
+font-weight: 500;
+color: #8F8F8F;
+}
 /* ==========================================================================
    Primary Content
    ========================================================================== */
