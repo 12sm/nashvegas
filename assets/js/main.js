@@ -52,7 +52,7 @@ var Roots = {
 
   //Media page
   page_id_17: {
-    init: function(){
+    init: function() {
       console.log('media scripts firing');
       $('.vid-container').fitVids();
       $('.slider').flexslider({
