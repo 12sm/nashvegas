@@ -53,6 +53,9 @@ var Roots = {
   media: {
     init: function(){
       $('.vid-container').fitVids();
+      $('#slider').flexslider({
+    animation: "slide"
+  });
     }
   }
 };
