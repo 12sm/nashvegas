@@ -53,7 +53,7 @@ var Roots = {
   media: {
     init: function(){
       $('.vid-container').fitVids();
-      $('#slider').flexslider({
+      $('.slider').flexslider({
     animation: "slide"
   });
     }
