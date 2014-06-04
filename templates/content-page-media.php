@@ -1,6 +1,6 @@
 <div class="row">
 	<div class="col-sm-4 col-offset-sm-4">
-		<img src="../img/media.png" class="img-responsive"/>
+		<img src="/wp-content/themes/nashvegas/assets/img/media.png" class="img-responsive"/>
 	</div>
 </div>
 <?php echo do_shortcode('[wp-view view-name="MEDIA | Videos"]'); ?>
