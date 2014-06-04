@@ -47,6 +47,13 @@ var Roots = {
         $(this).toggleClass('compressed');
       });
     }
+  },
+
+  //Media page
+  media: {
+    init: function(){
+      $('.vid-container').fitVids();
+    }
   }
 };
 

@@ -258,6 +258,9 @@ padding-bottom: 20px;
 /* ==========================================================================
     Media
    ========================================================================== */
+   body .media{
+    overflow: scroll!important
+   }
    .media .wrap.container-fluid {
 padding-top: 5%;
 }
