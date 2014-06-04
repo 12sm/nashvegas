@@ -23,7 +23,9 @@ var Roots = {
   common: {
     init: function() {
       // JavaScript to be fired on all pages
-      
+      $('.slider').flexslider({
+    animation: "slide"
+  });
     }
   },
   // Home page
@@ -43,9 +45,7 @@ var Roots = {
     init: function() {
       console.log('Fucking work you fucking fuck');
       $('.vid-container').fitVids();
-      $('.slider').flexslider({
-    animation: "slide"
-  });
+      
     }
   },
   // About us page, note the change from about-us to about_us.
