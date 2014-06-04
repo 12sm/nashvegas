@@ -41,7 +41,7 @@ var Roots = {
    //Media page
   page_id_17: {
     init: function() {
-      console.log('media scripts firing');
+      console.log('Fucking work you fucking fuck');
       $('.vid-container').fitVids();
       $('.slider').flexslider({
     animation: "slide"
