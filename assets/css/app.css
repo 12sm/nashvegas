@@ -254,6 +254,7 @@ font-weight: 400;
 .past-perf-item {
 padding-bottom: 20px;
 }
+
 /* ==========================================================================
    Primary Content
    ========================================================================== */
@@ -441,6 +442,9 @@ h2{
     .past-perf-heading {
   margin-bottom: 25px;
   }
+  .about-about, .about-faq, .about-performances{
+  min-height: 845px;
+}
 }
 
 /* Medium devices (desktops, 992px and up) */
