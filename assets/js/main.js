@@ -41,7 +41,6 @@ var Roots = {
    //Media page
   page_id_17: {
     init: function() {
-      kljkl;jkl;jkl
       console.log('media scripts firing');
       $('.vid-container').fitVids();
       $('.slider').flexslider({
