@@ -38,6 +38,16 @@ var Roots = {
       
     }
   },
+   //Media page
+  page_id_17: {
+    init: function() {
+      console.log('media scripts firing');
+      $('.vid-container').fitVids();
+      $('.slider').flexslider({
+    animation: "slide"
+  });
+    }
+  },
   // About us page, note the change from about-us to about_us.
   about: {
     init: function() {
@@ -50,16 +60,7 @@ var Roots = {
     }
   },
 
-  //Media page
-  page_id_17: {
-    init: function() {
-      console.log('media scripts firing');
-      $('.vid-container').fitVids();
-      $('.slider').flexslider({
-    animation: "slide"
-  });
-    }
-  }
+ 
 };
 
 // The routing fires all common scripts, followed by the page specific scripts.
