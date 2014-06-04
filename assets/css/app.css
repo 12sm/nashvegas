@@ -251,6 +251,9 @@ font-family: proxima-nova;
 font-size: 20px;
 font-weight: 400;
 }
+.past-perf-item {
+padding-bottom: 20px;
+}
 /* ==========================================================================
    Primary Content
    ========================================================================== */
@@ -434,6 +437,10 @@ h2{
    background-position-y: -75px;
    min-height: 900px!important;
 }
+  /*=======About Page ========*/
+    .past-perf-heading {
+  margin-bottom: 25px;
+  }
 }
 
 /* Medium devices (desktops, 992px and up) */
