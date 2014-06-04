@@ -35,6 +35,7 @@ var Roots = {
       $('.testimonial-container').flexslider({
     animation: "slide"
       });
+      console.log('media scripts firing');
     }
   },
   // About us page, note the change from about-us to about_us.
