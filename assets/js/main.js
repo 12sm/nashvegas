@@ -51,7 +51,7 @@ var Roots = {
   },
 
   //Media page
-  media: {
+  page_id_15: {
     init: function(){
       $('.vid-container').fitVids();
       $('.slider').flexslider({
