@@ -96,7 +96,7 @@ li.active>a{
    background: url(../img/video-bg.jpg) no-repeat;
    background-size: cover;
 }
-.testimonial-home{
+.testimonial-home, .test-featured{
    background: url(../img/testimonial-bg.jpg) no-repeat;
    background-size: cover;
 }

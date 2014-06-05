@@ -142,3 +142,25 @@
 		[url embed thing]
 	</div>
 </div>
+<div class="row">
+	<div class="col-sm-12 test-full">
+		<div class="testimonial-content">
+			<h1>QUOTE</h1>
+			<h4>Title</h4>
+			<p>occupation</p>
+			<p>Date // Location</p>
+		</div>
+	</div>
+</div>
+
+<!--Testimonial Grid-->
+<div class="row">
+	<wpv-loop>
+		<div class="col-sm-6 test-grid">
+			<h1>[types field="quote" output="raw"][/types]</h1>
+	      <h4>[wpv-post-title]</h4>
+			<p class="occupation">[types field="occupation" output="raw"][/types]</p>
+			<p class="date">[types field="date" style="text" format="F j, Y"][/types] // [types field="location" output="raw"][/types]</p>
+		</div>
+	</wpv-loop>
+</div>
