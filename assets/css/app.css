@@ -288,6 +288,14 @@ padding-top: 5%;
     font-family: 'proxima-nova';
     font-size: 20px;
    }
+   /* ==========================================================================
+    Testimonials
+   ========================================================================== */
+   .test-header {
+padding-top: 5%;
+background: url(../img/nokeh-bg.png) no-repeat;
+background-size: cover;
+}
    .test-test{
   /* fallback */
   background-color: #1a82f7;
