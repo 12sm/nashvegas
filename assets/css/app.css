@@ -260,7 +260,7 @@ padding-bottom: 20px;
    ========================================================================== */
    body.media{
     overflow: scroll!important;
-    background: url(../img/bokeh-bg.jpg) no-repeat;
+    background: url(../img/bokeh-bg.png) no-repeat;
     background-size: cover;
    }
    .media .wrap.container-fluid {
