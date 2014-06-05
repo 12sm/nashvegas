@@ -422,7 +422,7 @@ h2{
  .songlist .content{
     padding-top: 50px;
    }
-  .songlist-body{
+  .songlist-copy{
 -webkit-column-count:3; /* Chrome, Safari, Opera */
 -moz-column-count:3; /* Firefox */
 column-count:3;
