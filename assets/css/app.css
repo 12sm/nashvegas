@@ -476,6 +476,12 @@ h2{
   -moz-column-gap:40px; /* Firefox */
   column-gap:40px;
 }
+.contact-top {
+min-height: 500px;
+}
+.contact-top .btn{
+  margin-top: 4%;
+}
 }
 
 /* Medium devices (desktops, 992px and up) */
