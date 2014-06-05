@@ -327,6 +327,13 @@ background-size: cover;
     background: url(../img/bokeh-bg.png) no-repeat;
     background-size: cover;
    }
+   .contact-bottom>.column_container{
+padding-left: 0px!important;
+padding-right: 0px!important;
+}
+.contact-bottom img {
+width: 100%;
+}
 /* ==========================================================================
    Primary Content
    ========================================================================== */
