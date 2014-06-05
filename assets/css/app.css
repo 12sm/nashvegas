@@ -315,7 +315,10 @@ background-size: cover;
   /* Opera 11.10+ */
   background: -o-linear-gradient(top, #CECECE, #8D8D8D);
 }
-   }
+.tes-grid{
+  text-align: center;
+  padding: 25px 0;
+}
 /* ==========================================================================
    Primary Content
    ========================================================================== */
