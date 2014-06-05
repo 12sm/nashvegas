@@ -277,11 +277,15 @@ padding-top: 5%;
     background: url(../img/bokeh-bg.jpg) no-repeat;
     background-size: cover;
    }
+   .songlist .content{
+    padding-top: 50px;
+   }
    h3.song-cat{
   font-family: 'facet';
   font-size: 36px;
   color: #21a7b5;
   text-transform: uppercase;
+  text-align: center;
    }
    .song{
     font-family: 'proxima-nova';
