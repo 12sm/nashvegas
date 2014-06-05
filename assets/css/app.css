@@ -274,12 +274,10 @@ padding-top: 5%;
    Songlist
    ========================================================================== */
    body.songlist{
-    background: url(../img/bokeh-bg.jpg) no-repeat;
+    background: url(../img/bokeh-bg.png) no-repeat;
     background-size: cover;
    }
-   .songlist .content{
-    padding-top: 50px;
-   }
+
    h3.song-cat{
   font-family: 'facet';
   font-size: 36px;
@@ -481,6 +479,11 @@ h2{
   .about-about, .about-faq, .about-performances{
   min-height: 800px;
 }
+
+/*=======Songlist Page======*/
+ .songlist .content{
+    padding-top: 50px;
+   }
 }
 
 /* Medium devices (desktops, 992px and up) */
