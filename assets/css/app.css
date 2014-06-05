@@ -293,7 +293,7 @@ padding-top: 5%;
   background-color: #1a82f7;
 
   /* Safari 4-5, Chrome 1-9 */
-  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#8D8D8D), to(#CECECE));
+  background: -webkit-gradient(linear, 0% 0%, 100% 0%, from(#8D8D8D), to(#CECECE));
 
   /* Safari 5.1, Chrome 10+ */
   background: -webkit-linear-gradient(top, #8D8D8D, #CECECE);
