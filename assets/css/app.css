@@ -216,9 +216,6 @@ font-weight: 400;
 font-family: 'facet';
 text-transform: uppercase;
 }
-.about-about {
-padding-top: 5%;
-}
 .faq-body{
 text-align: center;
 padding: 0 30%;
@@ -495,7 +492,12 @@ h2{
 .about-about, .about-faq, .about-performances {
 min-height: 685px;
 }
-
+.taryn-box {
+margin-top: 23%;
+}
+.about-about {
+padding-top: 7%;
+}
 /*=======Songlist Page======*/
  .songlist .content{
     padding-top: 50px;
@@ -524,6 +526,9 @@ padding-bottom: 5%;
 @media (min-width: 992px ) {
 .about-about, .about-faq, .about-performances{
   min-height: 800px;
+}
+.about-about {
+padding-top: 5%;
 }
  }
 
