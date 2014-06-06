@@ -77,11 +77,15 @@ background-color: rgba(204,204,204,.3)!important;
 li.active>a{
    background-color: rgba(204,204,204,.0)!important;
 }
+#menu-primary-navigation>li>a:hover{
+  color: #000;
+}
 #menu-primary-navigation>li>a{
    padding: 10px 5px;
    font-size: 14px;
    color: #636363;
    text-transform: uppercase;
+   transition: color .5s ease;
 }
 
 div.booking-btn {
