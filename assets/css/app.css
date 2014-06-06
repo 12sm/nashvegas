@@ -318,6 +318,14 @@ padding-top: 50px;
 .songlist-body{
   padding-bottom: 50px;
 }
+.song {
+margin-bottom: 20px;
+}
+.songlist ul {
+list-style: none;
+text-align: center;
+padding-left: 0px;
+}
 /* ==========================================================================
    Songlist
    ========================================================================== */
