@@ -481,9 +481,9 @@ h2{
  h3{
   font-size: 23px;
  }
- .book-band{
-   background-position-y: -75px;
-   min-height: 900px!important;
+.book-band {
+background-position-y: -75px;
+min-height: 701px!important;
 }
   /*=======About Page ========*/
     .past-perf-heading {
@@ -535,6 +535,10 @@ padding-top: 5%;
 }
 .about-book .btn {
 width: 25%;
+}
+.book-band{
+   background-position-y: -75px;
+   min-height: 900px!important;
 }
  }
 
