@@ -552,6 +552,7 @@ padding-bottom: 5%;
 @media (min-width: 992px ) {
 .about-about, .about-faq, .about-performances{
   min-height: 800px;
+  padding-bottom: 50px;
 }
 .about-about {
 padding-top: 5%;
