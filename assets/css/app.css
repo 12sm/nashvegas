@@ -51,7 +51,7 @@ p{
   color: #333333;
 }
 .btn{
-  transition: color .5s ease;
+  transition: background-color .5s ease;
 }
 /* ==========================================================================
    Header
