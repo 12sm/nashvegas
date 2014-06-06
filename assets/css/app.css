@@ -286,6 +286,9 @@ padding-top: 5%;
 .photo>img{
   width: 100%;
 }
+.vid-container{
+padding: 15px;
+}
 
 /* ==========================================================================
    Songlist
