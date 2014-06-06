@@ -65,6 +65,7 @@ width: 100%;
 }
 #menu-primary-navigation{
 width: 100%;
+margin-bottom: 0px;
 }
 .collapse.navbar-collapse{
 background-color: rgba(204,204,204,.3)!important;
@@ -312,7 +313,7 @@ overflow: hidden;
 .swipebox img {
 width: 100%;
 }
-.media .content, .songlist .content {
+.media .content, .songlist .content, .testimonials .content, .contact .content {
 padding-top: 50px;
 }
 .songlist-body {
