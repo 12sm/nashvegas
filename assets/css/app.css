@@ -109,24 +109,29 @@ font-weight: 400;
 .home-video{
    background: url(../img/video-bg.jpg) no-repeat;
    background-size: cover;
+   padding-top: 50px;
 }
 .testimonial-home, .test-featured{
    background: url(../img/testimonial-bg.jpg) no-repeat;
    background-size: cover;
+   padding-top: 50px;
 }
 .home-about, .about-about{
    background: url(../img/about-bg.jpg) no-repeat;
    background-size: cover; 
    padding-bottom: 7%!important;
+   padding-top: 50px;
 }
 .book-band{
    background: url(../img/booking-bg.jpg) no-repeat;
    background-size: cover;
+   padding-top: 50px;
 }
 .songs-home{
    background: url(../img/songlist-bg.jpg) no-repeat;
    background-size: cover;
    background-position: 50%;
+   padding-top: 50px;
 }
 .songs-home .title-img{
   margin-left: 9%;
