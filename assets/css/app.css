@@ -498,6 +498,9 @@ margin-top: 10%;
 .about-about {
 padding-top: 10%;
 }
+.about-book .btn {
+width: 40%;
+}
 /*=======Songlist Page======*/
  .songlist .content{
     padding-top: 50px;
@@ -529,6 +532,9 @@ padding-bottom: 5%;
 }
 .about-about {
 padding-top: 5%;
+}
+.about-book .btn {
+width: 25%;
 }
  }
 
