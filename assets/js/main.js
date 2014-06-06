@@ -45,6 +45,9 @@ var Roots = {
       $('.slider').flexslider({
       animation: "slide"
   });
+      //Colorbox
+
+  $( '.swipebox' ).swipebox();
     }
   },
   // About us page, note the change from about-us to about_us.
