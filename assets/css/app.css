@@ -315,8 +315,9 @@ width: 100%;
 .media .content, .songlist .content {
 padding-top: 50px;
 }
-.songlist-body{
-  padding-bottom: 50px;
+.songlist-body {
+padding: 50px 20px;
+padding-top: 10px;
 }
 .song {
 margin-bottom: 20px;
