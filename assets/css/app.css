@@ -281,6 +281,9 @@ font-size: 20px;
 .taryn-box{
   display: none;
 }
+.perf-heading{
+  display: none;
+}
 /* ==========================================================================
     Media
    ========================================================================== */
@@ -512,6 +515,9 @@ padding-bottom: 0%;
 }
 .home-about, .about-about{
    padding-bottom: 0%!important;
+}
+.perf-heading{
+  display: block;
 }
 /*=======Songlist Page======*/
  .songlist .content{
