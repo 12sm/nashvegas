@@ -289,7 +289,9 @@ padding-top: 5%;
 .vid-container{
 padding: 15px;
 }
-
+.image-slider {
+overflow: hidden;
+}
 /* ==========================================================================
    Songlist
    ========================================================================== */
@@ -416,9 +418,7 @@ footer{
 .slides,
 .flex-control-nav,
 .flex-direction-nav {margin: 0; padding: 0; list-style: none;}
-.flexslider{
-  overflow: hidden;
-}
+
 /* Icon Fonts
 *********************************/
 /* Font-face Icons */
