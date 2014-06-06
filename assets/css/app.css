@@ -270,11 +270,13 @@ padding-bottom: 20px;
 }
 .about-book {
 padding-top: 7%;
+padding-bottom: 35%;
 }
 .about-book .btn {
 margin: 0 auto!important;
 display: block;
-width: 25%;
+width: 70%;
+font-size: 20px;
 }
 .taryn-box{
   display: none;
@@ -504,6 +506,10 @@ padding-top: 10%;
 }
 .about-book .btn {
 width: 40%;
+}
+.about-book {
+padding-bottom: 0%;
+
 }
 /*=======Songlist Page======*/
  .songlist .content{
