@@ -492,8 +492,8 @@ h2{
     .past-perf-heading {
   margin-bottom: 25px;
   }
-  .about-about, .about-faq, .about-performances{
-  min-height: 800px;
+.about-about, .about-faq, .about-performances {
+min-height: 685px;
 }
 
 /*=======Songlist Page======*/
@@ -521,7 +521,11 @@ padding-bottom: 5%;
 }
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px ) { }
+@media (min-width: 992px ) {
+.about-about, .about-faq, .about-performances{
+  min-height: 800px;
+}
+ }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { }
