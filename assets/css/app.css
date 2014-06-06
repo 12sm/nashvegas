@@ -312,7 +312,7 @@ overflow: hidden;
 .swipebox img {
 width: 100%;
 }
-.media .content {
+.media .content, .songlist .content {
 padding-top: 50px;
 }
 /* ==========================================================================
