@@ -313,7 +313,7 @@ overflow: hidden;
 .swipebox img {
 width: 100%;
 }
-.media .content, .songlist .content, .testimonials .content, .contact .content {
+.media .content, .songlist .content, .test-header, .contact .content {
 padding-top: 50px;
 }
 .songlist-body {
