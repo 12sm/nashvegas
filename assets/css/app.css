@@ -325,6 +325,7 @@ width: 100%;
    ========================================================================== */
    .test-header {
 padding-top: 5%;
+padding-bottom: 5%;
 background: url(../img/bokeh-bg.png) no-repeat;
 background-size: cover;
 }
