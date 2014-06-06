@@ -490,13 +490,13 @@ h2{
   margin-bottom: 25px;
   }
 .about-about, .about-faq, .about-performances {
-min-height: 685px;
+min-height: 1px;
 }
 .taryn-box {
-margin-top: 23%;
+margin-top: 10%;
 }
 .about-about {
-padding-top: 7%;
+padding-top: 10%;
 }
 /*=======Songlist Page======*/
  .songlist .content{
