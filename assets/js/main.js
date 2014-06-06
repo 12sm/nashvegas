@@ -43,7 +43,8 @@ var Roots = {
     init: function() {
       $('.vid-container').fitVids();
       $('.slider').flexslider({
-      animation: "slide"
+      animation: "slide",
+      controlNav: false
   });
       //Colorbox
 
