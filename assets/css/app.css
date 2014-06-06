@@ -297,7 +297,7 @@ font-size: 20px;
     background: url(../img/bokeh-bg.png) no-repeat;
     background-size: cover;
    }
-   .media .wrap.container-fluid {
+   .media .wrap.container-fluid{
 padding-top: 5%;
 }
 .photo>img{
@@ -562,6 +562,7 @@ min-height: 500px;
 padding-top: 5%;
 padding-bottom: 5%;
 }
+
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -579,6 +580,9 @@ width: 25%;
 .book-band{
    background-position-y: -75px;
    min-height: 900px!important;
+}
+.songlist .content {
+padding-top: 100px;
 }
  }
 
