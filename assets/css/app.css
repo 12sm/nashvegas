@@ -80,6 +80,10 @@ li.active>a{
    color: #636363;
    text-transform: uppercase;
 }
+.menu-booking a {
+padding-top: 5px;
+padding-bottom: 5px;
+}
 
 /* ==========================================================================
    Content
