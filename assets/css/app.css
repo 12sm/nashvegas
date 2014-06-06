@@ -264,7 +264,14 @@ font-weight: 400;
 .past-perf-item {
 padding-bottom: 20px;
 }
-
+.about-book {
+padding-top: 7%;
+}
+.about-book .btn {
+margin: 0 auto!important;
+display: block;
+width: 25%;
+}
 /* ==========================================================================
     Media
    ========================================================================== */
@@ -333,7 +340,6 @@ background-size: cover;
    Contact
    ========================================================================== */
    .contact-top{
-    padding-top: 5%;
     background: url(../img/bokeh-bg.png) no-repeat;
     background-size: cover;
    }
@@ -491,6 +497,10 @@ min-height: 500px;
 }
 .contact-top .btn{
   margin-top: 4%;
+}
+.contact-top {
+padding-top: 5%;
+padding-bottom: 5%;
 }
 }
 
