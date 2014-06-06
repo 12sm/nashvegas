@@ -117,7 +117,7 @@ font-weight: 400;
 .home-about, .about-about{
    background: url(../img/about-bg.jpg) no-repeat;
    background-size: cover; 
-   padding-bottom: 0%!important;
+   padding-bottom: 7%!important;
 }
 .book-band{
    background: url(../img/booking-bg.jpg) no-repeat;
@@ -509,7 +509,9 @@ width: 40%;
 }
 .about-book {
 padding-bottom: 0%;
-
+}
+.home-about, .about-about{
+   padding-bottom: 0%!important;
 }
 /*=======Songlist Page======*/
  .songlist .content{
