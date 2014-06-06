@@ -170,6 +170,9 @@ padding-left: 0;
   text-transform: uppercase;
   text-align: center;
 }
+.testimonial-content {
+padding: 35px;
+}
 .testimonial-content>*{
   text-align: center;
 }
@@ -324,7 +327,7 @@ background-size: cover;
 }
 .test-grid{
   text-align: center;
-  padding: 25px;
+  padding: 35px;
 }
 /* ==========================================================================
    Contact
