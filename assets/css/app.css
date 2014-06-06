@@ -183,30 +183,6 @@ padding-left: 0;
   text-transform: uppercase;
   text-align: center;
 }
-.testimonial-content {
-padding: 35px;
-}
-.testimonial-content>*{
-  text-align: center;
-}
-.testimonial-content h1{
-  font-family: 'proxima-nova';
-  font-size: 50px;
-  color: #fff;
-  font-weight: lighter;
-  font-style: italic;
-}
-.occupation{
-  font-size: 13px;
-  color: #fff;
-  font-weight: 600;
-}
-.date{
-  font-size: 13px;
-  text-transform: uppercase;
-  color: #fff;
-  font-weight: 600;
-}
 .about-title-home>*>img, .about-title>*>img{
 width: 65%;
 height: auto;
@@ -379,6 +355,34 @@ background-size: cover;
   text-align: center;
   padding: 35px;
 }
+.test-grid h1{
+font-size: 18px;
+}
+.testimonial-content {
+padding: 35px;
+}
+.testimonial-content>*{
+  text-align: center;
+}
+.testimonial-content h1 {
+font-family: 'proxima-nova';
+font-size: 20px;
+color: #fff;
+font-weight: lighter;
+font-style: italic;
+}
+
+.occupation{
+  font-size: 13px;
+  color: #fff;
+  font-weight: 600;
+}
+.date{
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+}
 /* ==========================================================================
    Contact
    ========================================================================== */
@@ -505,6 +509,9 @@ padding: 0 50px;
 .songs-home .title-img{
   margin-left: 7%;
 }
+.test-grid h1{
+font-size: 36px;
+}
 h2{
   font-size: 68px;
  }
@@ -563,7 +570,9 @@ min-height: 500px;
 padding-top: 5%;
 padding-bottom: 5%;
 }
-
+.testimonial-content h1{
+  font-size: 50px;
+}
 }
 
 /* Medium devices (desktops, 992px and up) */
