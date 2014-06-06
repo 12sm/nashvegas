@@ -276,6 +276,9 @@ margin: 0 auto!important;
 display: block;
 width: 25%;
 }
+.taryn-box{
+  display: none;
+}
 /* ==========================================================================
     Media
    ========================================================================== */
@@ -494,6 +497,7 @@ min-height: 1px;
 }
 .taryn-box {
 margin-top: 10%;
+display:block;
 }
 .about-about {
 padding-top: 10%;
