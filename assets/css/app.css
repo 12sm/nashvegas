@@ -346,21 +346,37 @@ margin-bottom: 50px;
 /* ==========================================================================
    Songlist
    ========================================================================== */
-   body.songlist{
+body.songlist {
     background: url(../img/bokeh-bg.png) no-repeat;
     background-size: cover;
    }
-   h3.song-cat{
+   
+h3.song-cat { 
   font-family: 'facet';
   font-size: 36px;
   color: #21a7b5;
   text-transform: uppercase;
   text-align: center;
-   }
-   .song{
+}
+   
+.song {
     font-family: 'proxima-nova';
     font-size: 20px;
-   }
+}
+   
+.songlist-copy {
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+	column-count: 3;
+	-webkit-column-gap: 40px;
+	-moz-column-gap: 40px;
+	column-gap: 40px;
+	-moz-column-count: 3;
+	-moz-column-gap: 40px;
+	-webkit-column-count: 3;
+	-webkit-column-gap: 40px;
+}
+
    /* ==========================================================================
     Testimonials
    ========================================================================== */
@@ -586,31 +602,31 @@ padding-bottom: 0%;
 .perf-heading{
   display: block;
 }
+
 /*=======Songlist Page======*/
- .songlist .content{
+ 
+ .songlist .content {
     padding-top: 50px;
-   }
-  .songlist-copy{
-  -webkit-column-count:3; /* Chrome, Safari, Opera */
-  -moz-column-count:3; /* Firefox */
-  column-count:3;
-  -webkit-column-gap:40px; /* Chrome, Safari, Opera */
-  -moz-column-gap:40px; /* Firefox */
-  column-gap:40px;
 }
-.contact-top {
-min-height: 500px;
+   
+.songlist-copy{
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+	column-count: 3;
+	-webkit-column-gap: 40px;
+	-moz-column-gap: 40px;
+	column-gap: 40px;
+	-moz-column-count: 3;
+	-moz-column-gap: 40px;
+	-webkit-column-count: 3;
+	-webkit-column-gap: 40px;
 }
-.contact-top .btn{
-  margin-top: 4%;
-}
-.contact-top {
-padding-top: 5%;
-padding-bottom: 5%;
-}
-.testimonial-content h1{
-  font-size: 50px;
-}
+
+.contact-top {min-height: 500px;}
+.contact-top .btn{margin-top: 4%;}
+.contact-top {padding-top: 5%;padding-bottom: 5%;}
+.testimonial-content h1{font-size: 50px;}
+
 }
 
 /* Medium devices (desktops, 992px and up) */
