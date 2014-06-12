@@ -60,6 +60,17 @@ p{
 	border:none;
 	border-radius: 0;
 }
+
+.btn-primary:hover, 
+.btn-primary:focus, 
+.btn-primary:active, 
+.btn-primary.active, 
+.open .dropdown-toggle.btn-primary {
+color: #fff;
+background-color: #D129D8;
+border: none;
+}
+
 /* ==========================================================================
    Header
    ========================================================================== */
