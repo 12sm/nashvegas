@@ -531,7 +531,10 @@ footer{
 );*/
    background-color: #000;
    color: #fff;
+   text-align:center;
 }
+
+footer p {font-size:12px;}
 
 /* ==========================================================================
     Flex Slider
@@ -691,7 +694,7 @@ font-size: 38px;
 }
 .book-band{
    background-position-y: -75px;
-   min-height: 900px!important;
+   min-height: 1040px!important;
 }
 .songlist .content {
 padding-top: 100px;
