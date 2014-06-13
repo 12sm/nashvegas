@@ -143,19 +143,19 @@ transition:background .3s ease;
    Home
    ========================================================================== */
 
-.home-video{
+.home-video {
    background: url(../img/video-bg.jpg) no-repeat;
    background-size: cover;
    padding-top: 50px;
 }
 
-.testimonial-home, .test-featured{
+.testimonial-home, .test-featured {
    background: url(../img/testimonial-bg.jpg) no-repeat;
    background-size: cover;
    padding-top: 50px;
 }
 
-.home-about, .about-about{
+.home-about, .about-about {
    background: url(../img/about-bg.jpg) no-repeat;
    background-size: cover; 
    padding-bottom: 7%!important;
@@ -188,11 +188,11 @@ margin-bottom: 1.2em;
    padding-top: 50px;
 }
 
-.songs-home .title-img{
+.songs-home .title-img {
   margin-left: 9%;
 }
 
-.title-img{
+.title-img {
   width: 100%;
 }
 
@@ -227,7 +227,7 @@ text-align: center;
 padding-left: 0;
 }
 
-.song-title{
+.song-title {
   font-family: 'facet';
   font-size: 32px;
   color: #182a49;
@@ -235,7 +235,7 @@ padding-left: 0;
   margin-bottom:0
 }
 
-.artist{
+.artist {
   font-family: 'facet';
   font-size: 28px;
   color: #21a7b5;
@@ -243,12 +243,16 @@ padding-left: 0;
   margin-top:0;
 }
 
-.pink{
+.pink {
   font-family: "facet";
   font-size: 32px;
   color: #b4148a;
   text-transform: uppercase;
   text-align: center;
+}
+
+h3.pink:hover {
+color: rgb(183, 25, 233);
 }
 
 .about-title-home>*>img, .about-title>*>img{
