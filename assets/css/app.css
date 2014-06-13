@@ -161,6 +161,10 @@ transition:background .3s ease;
    margin-top: 0px;
 }
 
+.btn-full-bio {}
+
+.display-table-caption {display: table-caption;}
+
 .home-about p {
 font-size: 16px;
 line-height: 1.5;
