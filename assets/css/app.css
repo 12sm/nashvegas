@@ -291,6 +291,15 @@ font-weight: 400;
   background: url(../img/faq-bg.jpg) no-repeat;
   background-size: cover;
 }
+
+.faq-heading h2 {
+font-family: 'facet';
+font-size: 80px;
+color: #48c6cc;
+text-transform: uppercase;
+margin-bottom: 0;
+}
+
 .compressed .answer{
   display: none;
 }
