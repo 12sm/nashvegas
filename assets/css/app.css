@@ -161,7 +161,13 @@ transition:background .3s ease;
    margin-top: 0px;
 }
 
-.book-band{
+.home-about p {
+font-size: 16px;
+line-height: 1.5;
+margin-bottom: 1.2em;
+}
+
+.book-band {
    background: url(../img/booking-bg.jpg) no-repeat;
    background-size: cover;
    padding-top: 50px;
@@ -169,7 +175,7 @@ transition:background .3s ease;
 
 .book-band a.btn.btn-primary {margin-top: 2%;}
 
-.songs-home{
+.songs-home {
    background: url(../img/songlist-bg.jpg) no-repeat;
    background-size: cover;
    background-position: 50%;
