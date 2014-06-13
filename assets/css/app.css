@@ -520,7 +520,7 @@ width: 100%;
 .content-info { }
 
 #social ul {margin:0px; padding:0px; list-style: none;}
-#social li {margin:0px; padding: 0px list-style:none; display: block; float:left;}
+#social li {margin:0px; padding: 0px; list-style:none; display: block; float:left;}
 #social li a {padding: 10px;}
 
 footer{
@@ -535,6 +535,14 @@ footer{
 }
 
 footer p {font-size:12px;}
+
+p.credits a {
+color: #333333;
+}
+
+p.credits a:hover {
+color: #53bbeb;
+}
 
 /* ==========================================================================
     Flex Slider
