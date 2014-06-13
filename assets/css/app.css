@@ -25,6 +25,8 @@ h1,h2,h3,h4,h5,h6,p,a {
   font-family: 'proxima-nova';
 }
 
+a {transition: color .3s ease, background-color .3s ease, background .3s ease}
+
 a:hover {
   text-decoration: none;
 }
@@ -230,13 +232,15 @@ padding-left: 0;
   font-size: 32px;
   color: #182a49;
   text-transform: uppercase;
+  margin-bottom:0
 }
 
 .artist{
   font-family: 'facet';
-  font-size: 32px;
+  font-size: 28px;
   color: #21a7b5;
   text-transform: uppercase;
+  margin-top:0;
 }
 
 .pink{
