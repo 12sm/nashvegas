@@ -307,7 +307,7 @@ margin-bottom: 0;
 margin-top:0;
 }
 
-.faq-heading {background: url(../img/faq-bokeh.jpg) no-repeat;}
+.faq-heading {background: url(../img/faq-bokeh.jpg) no-repeat;height:240px;}
 
 .faq-heading p {
 font-size: 20px;
