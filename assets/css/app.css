@@ -127,6 +127,7 @@ background: #48c6cc;
 border-radius: 5px;
 color: #fff;
 font-weight: 100;
+transition:background .3s ease;
 }
 
 .booking-btn:hover {background: #F65CF6;}
