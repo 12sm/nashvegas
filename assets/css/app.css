@@ -306,6 +306,21 @@ color: #FFF;
 margin-bottom: 5%!important;
 }
 
+.answer p {
+color: #f3f3f3;
+padding: 1%;
+}
+
+.question h4 {
+padding: 1%;
+font-size:24px;
+}
+
+.faq-section i.fa {
+color: #f3f3f3;
+margin-right: 2%;
+}
+
 .compressed .answer{
   display: none;
 }
