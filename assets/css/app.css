@@ -249,6 +249,7 @@ padding-left: 0;
   color: #b4148a;
   text-transform: uppercase;
   text-align: center;
+  transition:color .3s ease;
 }
 
 h3.pink:hover {
