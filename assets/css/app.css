@@ -2,7 +2,6 @@
  * Roots 6.5.0
  */
 
-
 /* ==========================================================================
    Base
    ========================================================================== */
@@ -12,45 +11,55 @@ body {background-color:#000;}
 .banner {
 margin-bottom: 0px;
 }
+
 .banner-img>img {
 width: 100%;
 }
-@font-face{
+
+@font-face {
 font-family: facet;
 src: url(../fonts/facet.ttf);
 }
-h1,h2,h3,h4,h5,h6,p,a{
+
+h1,h2,h3,h4,h5,h6,p,a {
   font-family: 'proxima-nova';
 }
-a:hover{
+
+a:hover {
   text-decoration: none;
 }
-h2{
+
+h2 {
   font-weight: 100;
   color: #fff;
   text-transform: uppercase;
 }
-h4{
+
+h4 {
   color: #fff;
   font-size: 23px;
   font-weight: 100;
 }
-h3{
+
+h3 {
   color: #fff;
   text-transform: uppercase;
   font-weight: 100;
 }
-a.btn{
+
+a.btn {
   font-size: 43px;
   font-weight: 100;
   color: #fff;
   text-transform: uppercase;
 }
-p{
+
+p {
   font-size: 18px;
   color: #333333;
 }
-.btn{
+
+.btn {
   transition: background-color .5s ease;
 }
 
@@ -371,10 +380,6 @@ h3.song-cat {
 	-webkit-column-gap: 40px;
 	-moz-column-gap: 40px;
 	column-gap: 40px;
-	-moz-column-count: 3;
-	-moz-column-gap: 40px;
-	-webkit-column-count: 3;
-	-webkit-column-gap: 40px;
 }
 
    /* ==========================================================================
@@ -552,60 +557,76 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-.navbar-brand{
+
+.navbar-brand {
    display: none;
 }
-.collapse.navbar-collapse{
+
+.collapse.navbar-collapse {
 margin: 20px auto;
 max-width: 950px;
-padding: 0 50px;
+padding: 0% 1%;
 }
+
 .songs-home .title-img{
   margin-left: 7%;
 }
+
 .test-grid h1{
 font-size: 36px;
 }
+
 h2{
   font-size: 68px;
- }
+}
+ 
  h3{
   font-size: 23px;
- }
+}
+ 
 .book-band {
 background-position-y: -75px;
 min-height: 701px!important;
 }
+
+
   /*=======About Page ========*/
-    .past-perf-heading {
+.past-perf-heading {
   margin-bottom: 25px;
-  }
+}
+
 .about-about, .about-faq, .about-performances {
 min-height: 1px;
 }
+
 .taryn-box {
 margin-top: 10%;
 display:block;
 }
+
 .about-about {
 padding-top: 10%;
 }
+
 .about-book .btn {
 width: 40%;
 }
+
 .about-book {
 padding-bottom: 0%;
 }
+
 .home-about, .about-about{
    padding-bottom: 0%!important;
 }
+
 .perf-heading{
   display: block;
 }
 
 /*=======Songlist Page======*/
  
- .songlist .content {
+.songlist .content {
     padding-top: 50px;
 }
    
