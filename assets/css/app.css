@@ -334,7 +334,7 @@ width: 70%;
 font-size: 20px;
 }
 .taryn-box{
-  display: none;
+  display: table-cell;
 }
 .perf-heading{
   display: none;
@@ -701,8 +701,8 @@ width: 25%;
 font-size: 38px;
 }
 .book-band{
-   background-position-y: -75px;
-   min-height: 1090px!important;
+   background-position-y: -25px;
+   min-height: 1040px!important;
 }
 .songlist .content {
 padding-top: 100px;
