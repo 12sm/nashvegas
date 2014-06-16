@@ -783,7 +783,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* Extra small devices (phones, up to 480px) */
 /* No media query since this is the default in Bootstrap */
 
-@media (max-width: 768) {
+@media (min-width: 768px) {
 	
 body.home img.img-responsive.taryn,  body.home .taryn>*>img {
 margin-left: -140px;
