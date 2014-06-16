@@ -397,51 +397,72 @@ margin-right: 2%;
 .compressed .answer{
   display: none;
 }
+
 .question i{
   color: #fff;
 }
+
 .compressed .question .fa:before{
   content: "\f0fe";
 }
+
 .question .fa:before{
   content: "\f146";
 }
+
 .about-performances {
 text-align: center;
 background: url(../img/pp-bg.jpg) no-repeat;
 background-size: cover;
 }
+
 .past-perf-heading h5 {
 font-size: 32px;
 font-family: 'facet';
 font-weight: 500;
 color: #8F8F8F;
 }
+
+.past-perf-heading h5:nth-child(1) {
+color: #e552ee;
+font-family: 'facet';
+font-size: 80px;
+text-transform: uppercase;
+margin-bottom: 0;
+margin-top: 0;
+}
+
 .past-perf-item h5 {
 color: #fff;
 font-family: proxima-nova;
 font-size: 20px;
 font-weight: 400;
 }
+
 .past-perf-item {
 padding-bottom: 20px;
 }
+
 .about-book {
 padding-top: 7%;
 padding-bottom: 35%;
 }
+
 .about-book .btn, p .btn {
 margin: 0 auto!important;
 display: block;
 width: 70%;
 font-size: 20px;
 }
+
 .taryn-box{
   display: table-cell;
 }
+
 .perf-heading{
   display: none;
 }
+
 /* ==========================================================================
     Media
    ========================================================================== */
