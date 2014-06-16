@@ -333,18 +333,22 @@ font-weight: 400;
 font-family: 'facet';
 text-transform: uppercase;
 }
+
 .faq-body{
 text-align: center;
 padding: 0 30%;
 }
+
 .faq-body p{
   color: #fff;
 }
+
 .question h4 {
 color: #47C4D2;
 font-size: 22px;
 font-weight: 400;
 }
+
 .faq-list{
   padding-left: none;
   list-style: none;
@@ -423,7 +427,7 @@ font-weight: 500;
 color: #8F8F8F;
 }
 
-.past-perf-heading h5:nth-child(1) {
+h5.perf-first-heading {
 color: #e552ee;
 font-family: 'facet';
 font-size: 80px;
