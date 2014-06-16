@@ -869,7 +869,7 @@ padding-bottom: 0%;
 .contact-top {min-height: 500px;}
 .contact-top .btn{margin-top: 4%;}
 .contact-top {padding-top: 5%;padding-bottom: 5%;}
-.testimonial-content h1{font-size: 50px;}
+.testimonial-content h1 {font-size: 30px;}
 
 }
 
@@ -892,9 +892,10 @@ margin-bottom: 1.2em;
 }
 
 .about-book .btn {
-width: 25%;
-font-size: 38px;
+width: 30%;
+font-size: 2em;
 }
+
 .book-band{
    background-position-y: -25px;
    min-height: 1040px!important;
@@ -907,7 +908,12 @@ margin-top: 0%;
  }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { }
+@media (min-width: 1200px) { 
+
+.home-slide {min-height: auto;}
+
+
+}
 
 /*
  * jQuery FlexSlider v2.2.0
