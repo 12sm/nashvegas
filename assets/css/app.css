@@ -97,8 +97,9 @@ margin-bottom: 0px;
 .collapse.navbar-collapse {background-color: rgba(255,255,255,.5)!important;}
 
 .navbar-collapse {
+padding: 3%;
 background-color: #FFF;
-width: 60%;
+width: 100%;
 text-align: center;
 margin: 0 auto;
 }
