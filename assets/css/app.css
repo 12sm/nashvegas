@@ -812,6 +812,9 @@ ul.flex-direction-nav {
 display: none;
 }
 
+body.home .book-band {
+background:none;
+}
 	
 }
 
