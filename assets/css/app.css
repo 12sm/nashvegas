@@ -257,7 +257,7 @@ display: none;
 
 .home-slide {
 padding: 3%;
-min-height: 750px;
+min-height: auto;
 }
 
 .book-content {
