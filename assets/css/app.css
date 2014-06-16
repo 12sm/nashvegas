@@ -792,6 +792,13 @@ text-shadow:none;
 -webkit-box-shadow: none;
 box-shadow: none;
 background-color: transparent;
+font-size:18px;
+}
+
+body.home .songs-home {
+background: url(../img/bokeh-bg.png) no-repeat;
+background-size: contain;
+padding-top: 50px;
 }
 	
 }
