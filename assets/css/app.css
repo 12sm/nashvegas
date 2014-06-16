@@ -6,7 +6,7 @@
    Base
    ========================================================================== */
 
-body {background-color:#000;}
+body {background-color:#FFF;}
 
 .banner {margin-bottom: 0px;}
 
@@ -797,7 +797,7 @@ font-size:18px;
 
 body.home .songs-home {
 background: url(../img/bokeh-bg.png) no-repeat;
-background-size: contain;
+background-size: cover;
 padding-top: 50px;
 }
 	
