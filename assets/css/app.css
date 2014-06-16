@@ -803,6 +803,9 @@ background-size: cover;
 padding-top: 50px;
 }
 
+body.home .songs-home .title-img {
+margin-left: 4%;
+}
 	
 }
 
