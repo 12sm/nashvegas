@@ -181,6 +181,19 @@ margin-bottom: 1.2em;
 
 .book-band a.btn.btn-primary {margin-top: 2%!important;}
 
+
+/* ---- Booking Modal ---- */
+
+form#book-the-band-1 li {
+color: rgb(46, 46, 46);
+font-family: 'proxima-nova';
+font-weight: 100;
+font-style: normal;
+font-size: 14px;
+}
+
+
+
 .songs-home {
    background: url(../img/songlist-bg.jpg) no-repeat;
    background-size: cover;
