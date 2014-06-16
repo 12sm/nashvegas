@@ -813,7 +813,8 @@ display: none;
 }
 
 body.home .book-band {
-background:none;
+background-image: none;
+background-color:#000;
 }
 	
 }
