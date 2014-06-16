@@ -786,6 +786,13 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 @media (max-width: 768px) {
 
 body.home img.img-responsive.taryn, body.home .taryn>*>img {display:none;}
+
+body.home .home-about p {
+text-shadow:none;
+-webkit-box-shadow: none;
+box-shadow: none;
+background-color: none;
+}
 	
 }
 
