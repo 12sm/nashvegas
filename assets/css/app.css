@@ -8,13 +8,9 @@
 
 body {background-color:#000;}
 
-.banner {
-margin-bottom: 0px;
-}
+.banner {margin-bottom: 0px;}
 
-.banner-img>img {
-width: 100%;
-}
+.banner-img>img {width: 100%;}
 
 @font-face {
 font-family: facet;
@@ -321,6 +317,11 @@ color: rgb(183, 25, 233);
 .about-title-home>*>img {
 width: 65%;
 height: auto;
+}
+
+body.home .occupation,
+body.home .date {
+color: #B3B3B3;
 }
 
 /* ==========================================================================
