@@ -195,9 +195,32 @@ color: rgb(102, 8, 105)!important;
 input[type=text], input[type=email], textarea {
 border: 1px solid rgb(223, 223, 223);
 width: 100%;
-margin-bottom: 2%;
+margin-bottom: 3%;
 padding: 1%;
 background: rgb(243, 243, 243);
+color: rgb(212, 79, 218);
+font-size: 18px;
+text-align: center;
+font-weight: 200;
+}
+
+div.ui-datepicker {
+font-size: 12px;
+background-color: #FFF;
+padding: 2%;
+width: auto;
+text-align: center;
+left: 46%!important;
+-webkit-box-shadow: 0 0 2px 0 #D1D1D1;
+box-shadow: 0 0 2px 0 #D1D1D1;
+}
+
+div.ui-datepicker-title {font-size: 20px;font-weight: lighter;}
+table.ui-datepicker-calendar td {padding: 3%;}
+
+div.vfb-legend,
+span.vfb-span label {
+display: none;
 }
 
 .songs-home {
