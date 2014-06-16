@@ -809,7 +809,7 @@ h2{
   font-size: 68px;
 }
  
- h3{
+h3{
   font-size: 23px;
 }
  
@@ -820,6 +820,11 @@ min-height: 701px!important;
 
 img.img-responsive.taryn, .taryn>*>img {
 margin-left: -140px;
+}
+
+ol.flex-control-nav.flex-control-paging,
+ul.flex-direction-nav {
+display: none;
 }
 
 
