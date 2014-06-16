@@ -817,7 +817,7 @@ background-position-y: -75px;
 min-height: 701px!important;
 }
 
-img.img-responsive.taryn, .taryn>*>img {
+body.home img.img-responsive.taryn,  body.home .taryn>*>img {
 margin-left: -140px;
 }
 
