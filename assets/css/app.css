@@ -533,13 +533,22 @@ h3.song-cat {
 
 h3.song-cat:nth-child(1) {margin-top: -10%;}
    
+.song b {
+font-size: 20px;
+text-transform: none;
+}
+
 .song {
-    font-family: 'proxima-nova';
-    font-size: 20px;
+font-size: 16px;
+text-transform: uppercase;
 }
  
 .songlist-copy {
 	padding-top: 4%;
+	color: rgb(78, 78, 78);
+	font-family: 'proxima-nova';
+	font-weight: lighter;
+	letter-spacing: .01em;
 	-webkit-column-count: 3;
 	-moz-column-count: 3;
 	column-count: 3;
