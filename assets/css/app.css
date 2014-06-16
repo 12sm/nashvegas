@@ -184,6 +184,10 @@ margin-bottom: 1.2em;
 
 /* ---- Booking Modal ---- */
 
+ul.vfb-section.vfb-section-1, ul.vfb-section.vfb-section-2 {
+padding:0% 7%;
+}
+
 form#book-the-band-1 label {
 margin-bottom: 1%;
 margin-top: 1%;
