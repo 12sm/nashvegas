@@ -783,6 +783,14 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* Extra small devices (phones, up to 480px) */
 /* No media query since this is the default in Bootstrap */
 
+@media (max-width: 768) {
+	
+body.home img.img-responsive.taryn,  body.home .taryn>*>img {
+margin-left: -140px;
+}
+	
+}
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
@@ -815,10 +823,6 @@ h3{
 .book-band {
 background-position-y: -75px;
 min-height: 701px!important;
-}
-
-body.home img.img-responsive.taryn,  body.home .taryn>*>img {
-margin-left: -140px;
 }
 
 ol.flex-control-nav.flex-control-paging,
@@ -929,6 +933,7 @@ margin-top: 0%;
 @media (min-width: 1200px) { 
 
 .home-slide {min-height: auto;}
+
 
 
 }
