@@ -238,7 +238,8 @@ div.ui-datepicker-title {font-size: 20px;font-weight: lighter;}
 table.ui-datepicker-calendar td {padding: 3%;}
 
 div.vfb-legend,
-span.vfb-span label {
+span.vfb-span label,
+modal-footer {
 display: none;
 }
 
