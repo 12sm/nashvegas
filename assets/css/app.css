@@ -239,7 +239,7 @@ table.ui-datepicker-calendar td {padding: 3%;}
 
 div.vfb-legend,
 span.vfb-span label,
-modal-footer {
+.modal-footer {
 display: none;
 }
 
