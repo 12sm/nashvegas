@@ -795,11 +795,14 @@ background-color: transparent;
 font-size:18px;
 }
 
-body.home .songs-home {
+body.home .songs-home,
+body.home .home-about, 
+body.home .about-about {
 background: url(../img/bokeh-bg.png) no-repeat;
 background-size: cover;
 padding-top: 50px;
 }
+
 	
 }
 
