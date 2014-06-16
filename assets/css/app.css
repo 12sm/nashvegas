@@ -817,10 +817,12 @@ padding-bottom: 0%;
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px ) {
-.about-about, .about-faq, .about-performances{
-  min-height: auto;
-  padding-bottom: 50px;
+
+.about-about, .about-faq, .about-performances {
+min-height: auto;
+padding: 5% 0%;
 }
+
 .about-about {
 padding-top: 9%;
 }
