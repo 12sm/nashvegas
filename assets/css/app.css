@@ -531,14 +531,15 @@ h3.song-cat {
   text-align: center;
 }
 
-h3.song-cat:nth-child(1) {margin-top: -15px;}
+h3.song-cat:nth-child(1) {margin-top: -10%;}
    
 .song {
     font-family: 'proxima-nova';
     font-size: 20px;
 }
-   
+ 
 .songlist-copy {
+	padding-top: 4%;
 	-webkit-column-count: 3;
 	-moz-column-count: 3;
 	column-count: 3;
