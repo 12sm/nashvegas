@@ -470,7 +470,8 @@ font-size: 20px;
 /* ==========================================================================
     Media
    ========================================================================== */
-   body.media{
+
+body.media{
     overflow: scroll!important;
     background: url(../img/bokeh-bg.png) no-repeat;
     background-size: cover;
@@ -478,28 +479,36 @@ font-size: 20px;
    .media .wrap.container-fluid{
 padding-top: 5%;
 }
+
 .photo>img{
   width: 100%;
 }
+
 .vid-container{
 padding: 15px;
 }
+
 .image-slider {
 overflow: hidden;
 }
+
 .swipebox img {
 width: 100%;
 }
+
 .media .content, .songlist .content, .test-header, .contact .content {
 padding-top: 50px;
 }
+
 .songlist-body {
 padding: 50px 20px;
 padding-top: 10px;
 }
+
 .song {
 margin-bottom: 20px;
 }
+
 .songlist ul {
 list-style: none;
 text-align: center;
@@ -511,7 +520,7 @@ margin-bottom: 50px;
    ========================================================================== */
 body.songlist {
     background: url(../img/bokeh-bg.png) no-repeat;
-    background-size: cover;
+    background-size: contain;
    }
    
 h3.song-cat { 
@@ -521,6 +530,8 @@ h3.song-cat {
   text-transform: uppercase;
   text-align: center;
 }
+
+h3.song-cat:nth-child(1) {margin-top: -10px;}
    
 .song {
     font-family: 'proxima-nova';
