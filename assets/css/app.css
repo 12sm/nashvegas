@@ -561,11 +561,15 @@ text-transform: uppercase;
     Testimonials
    ========================================================================== */
 
+body.testimonials {
+background-color: #CECECE;
+background: url(../img/bokeh-bg.png) repeat-y;
+background-size: contain;
+}
+
 .test-header {
 padding-top: 9%;
 padding-bottom: 5%;
-background: url(../img/bokeh-bg.png) no-repeat;
-background-size: contain;
 }
    .test-test{
   /* fallback */
