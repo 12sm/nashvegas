@@ -215,6 +215,21 @@ left: 46%!important;
 box-shadow: 0 0 2px 0 #D1D1D1;
 }
 
+input#vfb-4 {
+background-color: #03a7b1;
+color: #FFF;
+border: none;
+border-radius: 0;
+font-size: 20px;
+font-weight: lighter;
+text-transform: uppercase;
+letter-spacing: .1em;
+transition:background-color .3s ease;
+}
+
+input#vfb-4:hover, input#vfb-4:focus, input#vfb-4:active
+{background-color: #03a7b1;}
+
 div.ui-datepicker-title {font-size: 20px;font-weight: lighter;}
 table.ui-datepicker-calendar td {padding: 3%;}
 
