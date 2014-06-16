@@ -150,9 +150,9 @@ transition:background .3s ease;
 }
 
 .testimonial-home, .test-featured {
-   background: url(../img/testimonial-bg.jpg) no-repeat;
-   background-size: cover;
-   padding-top: 50px;
+background: url(../img/testimonial-bg.jpg) no-repeat;
+background-size: cover;
+padding: 7% 2%;
 }
 
 .home-about, .about-about {
