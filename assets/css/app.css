@@ -806,6 +806,12 @@ padding-top: 50px;
 body.home .songs-home .title-img {
 margin-left: 4%;
 }
+
+ol.flex-control-nav.flex-control-paging,
+ul.flex-direction-nav {
+display: none;
+}
+
 	
 }
 
