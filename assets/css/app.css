@@ -981,12 +981,18 @@ font-size: 2em;
    background-position-y: -25px;
    min-height: 1040px!important;
 }
+
 .songlist .content {
 padding-top: 100px;
 }
+
 .taryn-box {
 margin-top: 0%;
  }
+ 
+img.img-responsive.taryn, .taryn>*>img {
+margin-left: -100px;
+}
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
