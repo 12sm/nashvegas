@@ -79,6 +79,8 @@ background-color: #D129D8;
 border: none;
 }
 
+.pos-rel {position:relative!important;}
+
 /* ==========================================================================
    Header
    ========================================================================== */
@@ -831,6 +833,8 @@ background-color:#000;
 	
 body.home img.img-responsive.taryn,  body.home .taryn>*>img {
 margin-left: -140px;
+position: absolute!important;
+top: 79px;
 }
 
 .navbar-collapse {
