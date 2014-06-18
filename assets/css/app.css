@@ -453,8 +453,9 @@ margin-top: 0;
 .past-perf-item h5 {
 color: #fff;
 font-family: proxima-nova;
-font-size: 20px;
+font-size: 13px;
 font-weight: 400;
+line-height: 1.2em;
 }
 
 .past-perf-item {
@@ -1001,6 +1002,10 @@ margin-top: 0%;
  
 img.img-responsive.taryn, .taryn>*>img {
 margin-left: -100px;
+}
+
+body.about img.img-responsive.taryn, body.about .taryn>*>img {
+margin-left: 0px;
 }
 
 /* Large devices (large desktops, 1200px and up) */
