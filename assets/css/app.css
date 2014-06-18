@@ -791,7 +791,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* Extra small devices (phones, up to 480px) */
 /* No media query since this is the default in Bootstrap */
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 
 body.home img.img-responsive.taryn, body.home .taryn>*>img {display:none;}
 
@@ -803,12 +803,12 @@ background-color: transparent;
 font-size:18px;
 }
 
-body.home .songs-home,
-body.home .home-about, 
-body.home .about-about {
+body.home .home-about, body.home .about-about {
 background: url(../img/bokeh-bg.png) no-repeat;
 background-size: cover;
 padding-top: 50px;
+background-position: center center;
+background-color: #FFF;
 }
 
 body.home .songs-home .title-img {
