@@ -411,6 +411,15 @@ color: #f3f3f3;
 padding: 1%;
 }
 
+.answer ul {
+color: #FFF;
+font-family: "proxima-nova";
+font-size: 16px;
+font-weight: 300;
+letter-spacing: .05em;
+margin-bottom: 10px;
+}
+
 .question h4 {
 padding: 1%;
 font-size:24px;
