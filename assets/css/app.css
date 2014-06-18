@@ -886,6 +886,11 @@ column-gap: 40px;
 background: url(../img/bokeh-bg.png) no-repeat, #FFF;
 background-size: cover;
 }
+
+.about-book .btn, p .btn {
+width: 100%;
+font-size: 17px;
+}
 	
 }
 
