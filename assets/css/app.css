@@ -173,7 +173,7 @@ padding: 7% 2%;
 
 .display-table-caption {display: table-caption;}
 
-.home-about p:nth-child(n+3) {
+.home-about p:nth-child(n+4) {
 font-size: 16px;
 line-height: 1.5;
 margin-bottom: 1.2em;
