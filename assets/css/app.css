@@ -129,6 +129,8 @@ li.active>a {
    transition: color .5s ease;
 }
 
+.navbar-default .navbar-brand {display: none;}
+
 .booking-btn {
 background: #48c6cc;
 border-radius: 5px;
@@ -835,6 +837,11 @@ background-color:#000;
 }
 
 body.about .about-book {padding-bottom:0;}
+
+body.about .about-about {
+background: url(../img/bokeh-bg.png) no-repeat, #FFF;
+background-size: 100%;
+}
 	
 }
 
