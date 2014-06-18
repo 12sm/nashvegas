@@ -833,6 +833,8 @@ body.about .book-band {
 background-image: none;
 background-color:#000;
 }
+
+body.about .about-book {padding-bottom:0;}
 	
 }
 
