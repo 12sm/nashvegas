@@ -855,6 +855,15 @@ background-size: 100%;
 padding: 3%;
 background-color: rgba(255,255,255,.8);
 }
+
+.songlist-copy {
+-webkit-column-count: 2;
+-moz-column-count: 2;
+column-count: 2;
+-webkit-column-gap: 40px;
+-moz-column-gap: 40px;
+column-gap: 40px;
+}
 	
 }
 
