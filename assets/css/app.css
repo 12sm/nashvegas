@@ -136,9 +136,6 @@ transition:background .3s ease;
 
 .booking-btn:hover {background: #F65CF6;}
 
-ul#menu-primary-navigation li {
-width: 100%;
-}
 
 /* ==========================================================================
    Content
@@ -837,6 +834,21 @@ background-color:#000;
 body.home img.img-responsive.taryn,  body.home .taryn>*>img {
 margin-left: -140px;
 }
+
+.navbar-collapse {
+padding: 3%;
+background-color: #FFF;
+width: 100%;
+text-align: center;
+margin: 0 auto;
+}
+
+#menu-primary-navigation>li {
+display: inline-block;
+width: 14%;
+text-align: center;
+}
+
 	
 }
 
