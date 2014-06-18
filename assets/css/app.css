@@ -897,6 +897,10 @@ display: none;
 background: none;
 }
 
+.songs-home {
+background-position: 60%;
+}
+
 
   /*=======About Page ========*/
 .past-perf-heading {
