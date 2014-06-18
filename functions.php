@@ -22,6 +22,33 @@
 		}
 		add_shortcode( 'about', 'about_page' );
 
+//Use CRED For User Registration
+function my_registration_action($post_id, $form_data)
+{
+// if registration form
+if ($form_data['id']==623)
+{
+ 
+ // user can overwrite everything here, eg redirection, messages displayed etc..
+    if ($registering_as_author == 1 )
+    {
+    $user_role = 'author';
+    }
+    else
+    {
+    $user_role = 'contributor';
+    }
+    $display_name = $firstname . $lastname;
+    $user_id = username_exists( $post_title );
+    if ( !$user_id and email_exists($email_address) == false )
+    {
+      $user_id = wp_create_user( $post_title, $password, $email_address);
+      wp_insert_user( array ('ID' => $user_id, 'first_name' => $firstname, 'last_name' => $lastname, 'role' => $user_role, 'display_name' => $display_name));
+}
+header('location:wp-login.php');
+}
+}		
+
 
 define( 'OPTIONS_FRAMEWORK_DIRECTORY', get_template_directory_uri() . '/inc/' );
 require_once dirname( __FILE__ ) . '/inc/options-framework.php';

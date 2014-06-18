@@ -112,30 +112,33 @@
 <!-- Past Performances-->
 <div class="col-sm-12">
 	<div class="row past-perf-heading">
-		<div class="col-sm-4">
+		<div class="col-sm-12">
 			<h5>With:</h5>
-		</div>
-		<div class="col-sm-4">
-			<h5>For:</h5>
-		</div>
-		<div class="col-sm-4">
-			<h5>At:</h5>
+		<ul class="past-perf-item">
+		[wpv for-each]
+			<li><h5>BAND</h5></li>
+		</ul>
 		</div>
 	</div>
-	LOOP START
-		<div class="row past-perf-item">
-		<div class="col-sm-4">
-			<h5>Band</h5>
-		</div>
-		<div class="col-sm-4">
+	<div class="row past-perf-heading">
+		<div class="col-sm-12">
 			<h5>For:</h5>
-		</div>
-		<div class="col-sm-4">
-			<h5>At:</h5>
+		<ul class="past-perf-item">
+		[wpv for-each]
+			<li><h5>Corporate</h5></li>
+		</ul>
 		</div>
 	</div>
-	LOOP END
-</div>
+	<div class="row past-perf-heading">
+		<div class="col-sm-12">
+			<h5>Where:</h5>
+		<ul class="past-perf-item">
+		[wpv for-each]
+			<li><h5>Location</h5></li>
+		</ul>
+		</div>
+	</div>
+
 <!-- Videos -->
 <div class="row media-videos">
 	<div class="col-sm-6">
