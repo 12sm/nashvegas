@@ -7,6 +7,7 @@
    ========================================================================== */
 
 body {background-color:#FFF;}
+body.home {background-color:#000;}
 
 .banner {margin-bottom: 0px;}
 
