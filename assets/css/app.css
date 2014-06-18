@@ -7,7 +7,7 @@
    ========================================================================== */
 
 body {background-color:#FFF;}
-body.home {background-color:#000;}
+body.home,body.about {background-color:#000;}
 
 .banner {margin-bottom: 0px;}
 
@@ -431,7 +431,7 @@ margin-right: 2%;
 .about-performances {
 text-align: center;
 background: url(../img/pp-bg.jpg) no-repeat;
-background-size: cover;
+background-size: contain;
 }
 
 .past-perf-heading h5 {
