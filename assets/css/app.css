@@ -895,6 +895,11 @@ font-size: 17px;
 .test-header {
 padding-top:14%;
 }
+
+body.home a.btn.btn-primary {
+width: 70%;
+font-size: 25px;
+}
 	
 }
 
