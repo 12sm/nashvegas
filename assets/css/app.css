@@ -828,7 +828,8 @@ ul.flex-direction-nav {
 display: none;
 }
 
-body.home .book-band {
+body.home .book-band,
+body.about .book-band {
 background-image: none;
 background-color:#000;
 }
