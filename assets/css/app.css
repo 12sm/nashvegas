@@ -842,6 +842,11 @@ body.about .about-about {
 background: url(../img/bokeh-bg.png) no-repeat, #FFF;
 background-size: 100%;
 }
+
+.about-about.home-slide p {
+padding: 3%;
+background-color: rgba(255,255,255,.8);
+}
 	
 }
 
