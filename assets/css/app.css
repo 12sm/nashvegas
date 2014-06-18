@@ -900,6 +900,11 @@ body.home a.btn.btn-primary {
 width: 70%;
 font-size: 25px;
 }
+
+h5.perf-first-heading {
+font-size: 50px;
+padding-top: 5%;
+}
 	
 }
 
