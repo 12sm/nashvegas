@@ -288,6 +288,10 @@ img.img-responsive.taryn, .taryn>*>img{
 width: 85%;
 }
 
+body.about img.img-responsive.taryn, body.about .taryn>*>img{
+width: 100%;
+}
+
 .book-content > * {
 color: #fff;
 }
@@ -833,7 +837,8 @@ background-color:#000;
 
 @media (min-width: 768px) and (max-width:992px) {
 	
-body.home img.img-responsive.taryn,  body.home .taryn>*>img {
+body.home img.img-responsive.taryn,  body.home .taryn>*>img,
+body.about img.img-responsive.taryn,  body.about .taryn>*>img {
 margin-left: -140px;
 position: absolute!important;
 top: 79px;
