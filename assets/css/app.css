@@ -803,6 +803,10 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 @media (max-width: 767px) {
 
+#menu-primary-navigation>li {
+width: 100%;
+}
+
 body.home img.img-responsive.taryn, body.home .taryn>*>img {display:none;}
 
 body.home .home-about p {
