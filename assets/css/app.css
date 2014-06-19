@@ -975,10 +975,11 @@ background-position-y: -75px;
 min-height: 701px!important;
 }
 
+/*
 ol.flex-control-nav.flex-control-paging,
 ul.flex-direction-nav {
 display: none;
-}
+} */
 
 .book-band {
 background: none;
