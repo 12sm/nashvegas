@@ -1091,7 +1091,9 @@ margin-left: 0px;
 
 .home-slide {min-height: auto;}
 
-
+img.img-responsive.taryn, .taryn>*>img {
+margin-left: -50px;
+}
 
 }
 
