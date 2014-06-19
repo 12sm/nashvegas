@@ -317,7 +317,7 @@ padding-left: 0;
 }
 
 .song-title {
-  font-family: 'facet';
+  font-family: 'facet', 'proxima-nova';
   font-size: 32px;
   color: #182a49;
   text-transform: uppercase;
@@ -325,7 +325,7 @@ padding-left: 0;
 }
 
 .artist {
-  font-family: 'facet';
+  font-family: 'facet', 'proxima-nova';
   font-size: 28px;
   color: #21a7b5;
   text-transform: uppercase;
@@ -333,7 +333,7 @@ padding-left: 0;
 }
 
 .pink {
-  font-family: "facet";
+  font-family: "facet", 'proxima-nova';
   font-size: 32px;
   color: #b4148a;
   text-transform: uppercase;
@@ -362,7 +362,7 @@ color: #B3B3B3;
 color: #47C4D2;
 font-size: 68px;
 font-weight: 400;
-font-family: 'facet';
+font-family: 'facet', 'proxima-nova';
 text-transform: uppercase;
 }
 
@@ -397,7 +397,7 @@ background-color: #404040;
 }
 
 .faq-heading h2 {
-font-family: 'facet';
+font-family: 'facet', 'proxima-nova';
 font-size: 80px;
 color: #48c6cc;
 text-transform: uppercase;
@@ -463,14 +463,14 @@ background-size: contain;
 
 .past-perf-heading h5 {
 font-size: 32px;
-font-family: 'facet';
+font-family: 'facet', 'proxima-nova';
 font-weight: 500;
 color: #8F8F8F;
 }
 
 h5.perf-first-heading {
 color: #e552ee;
-font-family: 'facet';
+font-family: 'facet', 'proxima-nova';
 font-size: 80px;
 text-transform: uppercase;
 margin-bottom: 0;
@@ -568,7 +568,7 @@ body.songlist {
    }
    
 h3.song-cat { 
-  font-family: 'facet';
+  font-family: 'facet', 'proxima-nova';
   font-size: 36px;
   color: #21a7b5;
   text-transform: uppercase;
