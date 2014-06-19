@@ -692,6 +692,14 @@ margin-bottom: 0;
 color: #FFF;
 }
 
+body.testimonials .book-band {
+background-position-y: -25px;
+min-height: 330px!important;
+background: url(../img/pp-bg.jpg) no-repeat, #2B2B2B;
+background-size: contain;
+background-position: center center;
+}
+
 /* ==========================================================================
    Contact
    ========================================================================== */
@@ -940,6 +948,14 @@ padding-top: 5%;
 .flex-direction-nav .flex-disabled { opacity: 0!important; filter:alpha(opacity=0); cursor: default; }
 .flex-direction-nav a:before  { font-family: "flexslider-icon"; font-size: 40px; display: inline-block; content: '\f001'; }
 .flex-direction-nav a.flex-next:before  { content: '\f002'; }	
+	
+body.testimonials .book-band {
+background-position-y: -25px;
+min-height: 330px!important;
+background: url(../img/pp-bg.jpg) no-repeat, #2B2B2B;
+background-size: contain;
+background-position: center center;
+}	
 	
 }
 
