@@ -696,7 +696,7 @@ body.testimonials .book-band,
 body.songlist .book-band,
 body.media .book-band {
 background-position-y: -25px;
-min-height: 330px!important;
+min-height: 220px!important;
 background: url(../img/pp-bg.jpg) no-repeat, #2B2B2B;
 background-size: contain;
 background-position: center center;
