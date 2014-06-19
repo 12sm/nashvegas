@@ -784,7 +784,11 @@ p.credits a:hover {
 color: #53bbeb;
 }
 
-body.media footer {background-color: #FFF;padding: 2%;}
+body.media footer,
+body.songlist footer {
+background-color: #2B2B2B;
+padding: 1%;
+}
 
 /* ==========================================================================
     Flex Slider
