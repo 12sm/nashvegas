@@ -824,7 +824,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* Extra small devices (phones, up to 480px) */
 /* No media query since this is the default in Bootstrap */
 
-@media (min-width:767px) and (max width:991px) {
+@media (min-width:767px) and (max width:992px) {
 
 /* Direction Nav */
 .flex-direction-nav {*height: 0;}
