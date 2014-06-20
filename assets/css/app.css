@@ -615,25 +615,32 @@ background-size: contain;
 padding-top: 9%;
 padding-bottom: 5%;
 }
-   .test-test{
+
+.test-test {
+background: url(../img/bokeh-bg.png);
+background-size: cover;
+}
+   
+   
+/*.test-test{
   /* fallback */
-  background-color: #1a82f7;
+  /* background-color: #1a82f7;
 
   /* Safari 4-5, Chrome 1-9 */
-  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#CECECE), to(#8D8D8D));
+  /* background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#CECECE), to(#8D8D8D));
 
   /* Safari 5.1, Chrome 10+ */
-  background: -webkit-linear-gradient(top, #CECECE, #8D8D8D);
+  /* background: -webkit-linear-gradient(top, #CECECE, #8D8D8D);
 
   /* Firefox 3.6+ */
-  background: -moz-linear-gradient(top, #CECECE, #8D8D8D);
+  /* background: -moz-linear-gradient(top, #CECECE, #8D8D8D);
 
   /* IE 10 */
-  background: -ms-linear-gradient(top, #CECECE, #8D8D8D);
+  /* background: -ms-linear-gradient(top, #CECECE, #8D8D8D);
 
   /* Opera 11.10+ */
-  background: -o-linear-gradient(top, #CECECE, #8D8D8D);
-}
+  /* background: -o-linear-gradient(top, #CECECE, #8D8D8D);
+/* } */
 
 .test-grid{
   text-align: center;
