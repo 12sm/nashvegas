@@ -616,9 +616,11 @@ padding-top: 9%;
 padding-bottom: 5%;
 }
 
+.test-test {
 background-color: #CECECE;
 background: url(../img/bokeh-bg.png) no-repeat;
 background-size: contain;
+}
    
    
 /* .test-test{
