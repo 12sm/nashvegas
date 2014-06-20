@@ -81,13 +81,6 @@ border: none;
 
 .pos-rel {position:relative!important;}
 
-/* FF Modal hack */
-@-moz-document url-prefix() { 
-  .fade {
-     transition:none;
-  }
-}
-
 
 /* ==========================================================================
    Header
@@ -265,6 +258,13 @@ span.vfb-span label,
 .modal-footer {
 display: none;
 }
+
+/* Hides Security Question */
+li.vfb-item.vfb-item-secret {
+display: none!important;
+}
+
+
 
 .songs-home {
    background: url(../img/songlist-bg.jpg) no-repeat;
