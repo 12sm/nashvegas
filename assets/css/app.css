@@ -1002,7 +1002,7 @@ text-align: center;
 
 
 .about-bio {
-max-height: 460px;
+max-height: 430px;
 overflow: scroll;	
 }
 
@@ -1160,6 +1160,11 @@ margin-bottom: 1.2em;
 .about-book .btn {
 width: 30%;
 font-size: 2em;
+}
+
+.about-bio {
+max-height: 465px;
+overflow: scroll;	
 }
 
 .book-band{
