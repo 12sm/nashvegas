@@ -103,7 +103,7 @@ var Roots = {
 		   		filter: filterValue, 
 		   	});
 		   	$('.item').css("width:auto;");
-		   	$('.' + filterValue).css("width:100%;");
+		   	$(filterValue).css("width:100%;");
 		});
 		// change is-checked class on buttons
 		$('.button-group').each( function( i, buttonGroup ) {
