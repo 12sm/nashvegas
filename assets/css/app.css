@@ -921,12 +921,12 @@ background-color: rgba(255,255,255,.8);
 }
 
 .songlist-copy {
--webkit-column-count: 2;
--moz-column-count: 2;
-column-count: 2;
--webkit-column-gap: 40px;
--moz-column-gap: 40px;
-column-gap: 40px;
+-webkit-column-count: 1;
+-moz-column-count: 1;
+column-count: 1;
+-webkit-column-gap: 20px;
+-moz-column-gap: 20px;
+column-gap: 20px;
 }
 
 .songs-home {
@@ -1022,6 +1022,14 @@ overflow: scroll;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+
+ul li{
+-webkit-column-break-inside:avoid;
+-moz-column-break-inside:avoid;
+-o-column-break-inside:avoid;
+-ms-column-break-inside:avoid;
+column-break-inside:avoid;
+}
 
 .navbar-brand {
    display: none;
