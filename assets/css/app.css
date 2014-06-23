@@ -947,7 +947,7 @@ width: 70%;
 font-size: 25px;
 }
 
-.btn-full-bio {width:100%; font-size:14px;}
+body.home a.btn-full-bio {width:100%; font-size:14px;}
 
 h5.perf-first-heading {
 font-size: 50px;
