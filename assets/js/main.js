@@ -102,7 +102,6 @@ var Roots = {
 		   $container.isotope({ 
 		   		filter: filterValue, 
 		   	});
-		   	$container.isotope('reloadItems')
 		});
 		// change is-checked class on buttons
 		$('.button-group').each( function( i, buttonGroup ) {
