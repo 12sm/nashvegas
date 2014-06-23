@@ -68,7 +68,7 @@ var Roots = {
     init: function() {
       // JavaScript to be fired on the testimonials page
 
-      var container = document.querySelector('masonry');
+      var container = document.querySelector('.masonry');
       var msnry = new Masonry( container, {
 	      // options
 	      columnWidth: container.querySelector('.col-sm-6'),
