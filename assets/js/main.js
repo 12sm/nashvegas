@@ -101,10 +101,12 @@ var Roots = {
 		   filterValue = filterValue;
 		   $container.isotope({ 
 		   		filter: filterValue, 
-		   		masonry: {
-			   		columnWidth: '.col-sm-12'
-			   	} 
+		   		layoutMode: 'cellsByColumn',
+		   		cellsByColumn: {
+			   		columnWidth: 480
+			   	}
 		   	});
+		   	$container.isotope('reloadItems')
 		});
 		// change is-checked class on buttons
 		$('.button-group').each( function( i, buttonGroup ) {
