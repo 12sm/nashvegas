@@ -84,12 +84,12 @@ var Roots = {
     init: function() {
       // JavaScript to be fired on the testimonials page
 
-      var container = document.querySelector('.songlist-body');
+      var $container = $('.songlist-body');
       // init
-      container.isotope({
+      $container.isotope({
 	      // options
 	      itemSelector: '.item',
-	      columnWidth: container.querySelector('.col-sm-4'),
+	      columnWidth: $container.querySelector('.col-sm-4'),
 	   });
 	   
 	   // bind filter button click
@@ -97,7 +97,7 @@ var Roots = {
 		   var filterValue = $( this ).attr('data-filter');
 		   // use filterFn if matches value
 		   filterValue = filterValue;
-		   container.isotope({ filter: filterValue });
+		   $container.isotope({ filter: filterValue });
 		});
 		// change is-checked class on buttons
 		$('.button-group').each( function( i, buttonGroup ) {
