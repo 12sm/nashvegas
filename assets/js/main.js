@@ -86,7 +86,7 @@ var Roots = {
 
       var container = document.querySelector('.songlist-body');
       // init
-      $container.isotope({
+      container.isotope({
 	      // options
 	      itemSelector: '.item',
 	      columnWidth: container.querySelector('.col-sm-4'),
@@ -97,7 +97,7 @@ var Roots = {
 		   var filterValue = $( this ).attr('data-filter');
 		   // use filterFn if matches value
 		   filterValue = filterValue;
-		   $container.isotope({ filter: filterValue });
+		   container.isotope({ filter: filterValue });
 		});
 		// change is-checked class on buttons
 		$('.button-group').each( function( i, buttonGroup ) {
