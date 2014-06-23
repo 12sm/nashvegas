@@ -178,8 +178,6 @@ padding: 7% 2%;
    margin-top: 0px;
 }
 
-.btn-full-bio {}
-
 .display-table-caption {display: table-caption;}
 
 .home-about p:nth-child(n+2) {
@@ -585,8 +583,6 @@ h3.song-cat {
   text-transform: uppercase;
   text-align: center;
 }
-
-h3.song-cat:nth-child(1) {margin-top: -60px;}
    
 .song b {
 font-size: 20px;
@@ -951,6 +947,8 @@ width: 70%;
 font-size: 25px;
 }
 
+.btn-full-bio {width:100%; font-size:14px;}
+
 h5.perf-first-heading {
 font-size: 50px;
 padding-top: 5%;
@@ -1025,6 +1023,8 @@ overflow: scroll;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+
+h3.song-cat:nth-child(1) {margin-top: -60px;}
 
 ul li{
 -webkit-column-break-inside:avoid;
