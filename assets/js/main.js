@@ -99,7 +99,12 @@ var Roots = {
 		   var filterValue = $( this ).attr('data-filter');
 		   // use filterFn if matches value
 		   filterValue = filterValue;
-		   $container.isotope({ filter: filterValue, layoutMode: 'horizontal' });
+		   $container.isotope({ 
+		   		filter: filterValue, 
+		   		masonry: {
+			   		columnWidth: '.col-sm-12'
+			   	} 
+		   	});
 		});
 		// change is-checked class on buttons
 		$('.button-group').each( function( i, buttonGroup ) {
