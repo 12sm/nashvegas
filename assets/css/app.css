@@ -878,9 +878,9 @@ width: 100%;
 
 .navbar-default .navbar-brand {
 display: block;
-background: transparent url(../img/logo-mobile.png);
+background: transparent url(../img/logo-mobile.png) 10px center no-repeat;
 text-indent: -999999px;
-width: 300px;
+width: 315px;
 }
 
 .book-band a.btn.btn-primary {
