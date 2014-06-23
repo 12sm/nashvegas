@@ -866,6 +866,17 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 @media (max-width: 767px) {
 
+.banner {
+background: #fff;
+border: 0px solid!important;
+position: fixed;
+width: 100%;
+}
+
+.navbar-default .navbar-brand {
+display: block;
+}
+
 .book-band a.btn.btn-primary {
 margin-top: 2%!important;
 font-size: 35px;
