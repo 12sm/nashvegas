@@ -9,6 +9,8 @@
 body {background-color:#FFF;}
 body.home,body.about {background-color:#000;}
 
+body.media {margin-top:0px;}
+
 .banner {margin-bottom: 0px;}
 
 .banner-img>img {width: 100%;}
@@ -797,7 +799,6 @@ color: #53bbeb;
 body.media footer,
 body.songlist footer {
 background-color: #2B2B2B;
-padding: 1%;
 }
 
 /* ==========================================================================
@@ -866,6 +867,8 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 @media (max-width: 767px) {
 
+.wrap {padding-top:45px;}
+
 .banner {
 background: #fff;
 border: 0px solid!important;
@@ -875,6 +878,7 @@ width: 100%;
 
 .navbar-default .navbar-brand {
 display: block;
+
 }
 
 .book-band a.btn.btn-primary {
