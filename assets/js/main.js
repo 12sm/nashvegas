@@ -84,12 +84,12 @@ var Roots = {
     init: function() {
       // JavaScript to be fired on the testimonials page
 
-      var $container = $('.songlist-body');
+      var container = document.querySelector('.songlist-body');
       // init
       $container.isotope({
 	      // options
 	      itemSelector: '.item',
-	      columnWidth: $container.querySelector('.col-sm-4'),
+	      columnWidth: container.querySelector('.col-sm-4'),
 	   });
 	   
 	   // bind filter button click
