@@ -512,10 +512,6 @@ font-size: 20px;
   display: none;
 }
 
-.about-bio {
-max-height: 460px;
-overflow: scroll;	
-}
 
 /* ==========================================================================
     Media
@@ -983,12 +979,12 @@ background-position: center center;
 
 @media (min-width: 768px) and (max-width:992px) {
 	
-body.home img.img-responsive.taryn,  body.home .taryn>*>img,
+/*body.home img.img-responsive.taryn,  body.home .taryn>*>img,
 body.about img.img-responsive.taryn,  body.about .taryn>*>img {
 margin-left: -140px;
 position: absolute!important;
 top: 79px;
-}
+} */
 
 .navbar-collapse {
 padding: 3%;
@@ -1002,6 +998,12 @@ margin: 0 auto;
 display: inline-block;
 width: 14%;
 text-align: center;
+}
+
+
+.about-bio {
+max-height: 460px;
+overflow: scroll;	
 }
 
 /* Direction Nav */
@@ -1076,6 +1078,7 @@ min-height: 1px;
 .taryn-box {
 margin-top: 10%;
 display:block;
+margin-bottom:0px;
 }
 
 .about-about {
