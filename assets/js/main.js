@@ -88,10 +88,10 @@ var Roots = {
       // init
       $container.isotope({
 	      // options
-	      itemSelector: '.item',
 	      masonry: {
-	      	columnWidth: $container.find('.col-sm-4')[0]
-	      }
+	      	columnWidth: '.col-sm-4'
+	      },
+	      itemSelector: '.item'
 	   });
 	   
 	   // bind filter button click
