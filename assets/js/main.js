@@ -101,10 +101,6 @@ var Roots = {
 		   filterValue = filterValue;
 		   $container.isotope({ 
 		   		filter: filterValue, 
-		   		layoutMode: 'cellsByColumn',
-		   		cellsByColumn: {
-			   		columnWidth: 480
-			   	}
 		   	});
 		   	$container.isotope('reloadItems')
 		});
