@@ -866,6 +866,11 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 @media (max-width: 767px) {
 
+.book-band a.btn.btn-primary {
+margin-top: 2%!important;
+font-size: 35px;
+}
+
 #menu-primary-navigation>li {
 width: 100%;
 }
