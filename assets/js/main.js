@@ -89,7 +89,7 @@ var Roots = {
       $container.isotope({
 	      // options
 	      itemSelector: '.item',
-	      layoutMode: 'fitRows'
+	      columnWidth: container.querySelector('.col-sm-4'),
 	   });
 	   
 	   // bind filter button click

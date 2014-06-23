@@ -1110,7 +1110,9 @@ padding-bottom: 0%;
 }
    
 .songlist-copy{
-
+max-width: 1170px;
+margin: 0px auto;
+text-align: center;
 }
 
 .contact-top {min-height: 500px;}
