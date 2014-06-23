@@ -168,6 +168,7 @@ transition:background .3s ease;
 background: url(../img/testimonial-bg.jpg) no-repeat;
 background-size: cover;
 padding: 7% 2%;
+overflow:hidden;
 }
 
 .home-about, .about-about {
