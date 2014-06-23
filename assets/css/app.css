@@ -564,6 +564,15 @@ margin-bottom: 50px;
 /* ==========================================================================
    Songlist
    ========================================================================== */
+
+#filters a.btn {
+font-size: 22px;
+font-weight: 100;
+color: #fff;
+text-transform: uppercase;
+margin:5px!important;	
+}   
+   
 body.songlist {
     background: url(../img/bokeh-bg.png) no-repeat;
     background-size: contain;
@@ -577,7 +586,7 @@ h3.song-cat {
   text-align: center;
 }
 
-h3.song-cat:nth-child(1) {margin-top: -10%;}
+h3.song-cat:nth-child(1) {margin-top: -60px;}
    
 .song b {
 font-size: 20px;
