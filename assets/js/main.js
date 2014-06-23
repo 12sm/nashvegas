@@ -90,7 +90,7 @@ var Roots = {
 	      // options
 	      itemSelector: '.item',
 	      masonry: {
-	      	columnWidth: $container.querySelector('.col-sm-4')
+	      	columnWidth: $container.find('.col-sm-4')
 	      }
 	   });
 	   
