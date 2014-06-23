@@ -595,12 +595,6 @@ text-transform: uppercase;
 	font-family: 'proxima-nova';
 	font-weight: lighter;
 	letter-spacing: .01em;
-	-webkit-column-count: 3;
-	-moz-column-count: 3;
-	column-count: 3;
-	-webkit-column-gap: 40px;
-	-moz-column-gap: 40px;
-	column-gap: 40px;
 }
 
    /* ==========================================================================
@@ -1116,16 +1110,7 @@ padding-bottom: 0%;
 }
    
 .songlist-copy{
-	-webkit-column-count: 3;
-	-moz-column-count: 3;
-	column-count: 3;
-	-webkit-column-gap: 40px;
-	-moz-column-gap: 40px;
-	column-gap: 40px;
-	-moz-column-count: 3;
-	-moz-column-gap: 40px;
-	-webkit-column-count: 3;
-	-webkit-column-gap: 40px;
+
 }
 
 .contact-top {min-height: 500px;}
