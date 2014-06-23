@@ -71,7 +71,7 @@ var Roots = {
       var container = document.querySelector('masonry');
       var msnry = new Masonry( container, {
 	      // options
-	      container.querySelector('.col-sm-6')
+	      columnWidth: container.querySelector('.col-sm-6'),
 	      itemSelector: '.col-sm-6'
 	  });
 
