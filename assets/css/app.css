@@ -24,7 +24,7 @@ h1,h2,h3,h4,h5,h6,p,a {
   font-family: 'proxima-nova';
 }
 
-a {transition: color .3s ease, background-color .3s ease, background .3s ease}
+a {transition: color .3s ease, background-color .3s ease, background .3s ease; color: #03a7b1;}
 
 a:hover {
   text-decoration: none;
@@ -771,9 +771,19 @@ width: 100%;
 
 .content-info { }
 
-#social ul {margin:0px; padding:0px; list-style: none;}
+#social ul {
+margin: 0px;
+padding: 15px;
+list-style: none;
+position: fixed;
+bottom: 20px;
+right: 20px;
+background: rgba(255,255,255,0.3);
+font-size: 18px;
+color: #03a7b1;
+}
 #social li {margin:0px; padding: 0px; list-style:none; display: block; float:left;}
-#social li a {padding: 10px;}
+#social li a {padding: 10px; margin-right:15px;}
 
 footer{
    /* I miiiiiight use this again later
