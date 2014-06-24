@@ -306,6 +306,7 @@ width: 100%;
 /*Stupid IE Fix*/
 .home-about div{
   min-height: 1px;
+  width: 100%;
 }
 body.about img.img-responsive.taryn, body.about .taryn>*>img{
 width: 100%;
