@@ -1015,6 +1015,8 @@ background: url(../img/pp-bg.jpg) no-repeat, #2B2B2B;
 background-size: contain;
 background-position: center center;
 }	
+
+#social ul {display:none;}
 	
 }
 
