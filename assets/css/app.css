@@ -302,6 +302,7 @@ margin-bottom: 0px;
 
 img.img-responsive.taryn, .taryn>*>img{
 width: 85%;
+height: auto!important;
 }
 
 body.about img.img-responsive.taryn, body.about .taryn>*>img{
