@@ -24,6 +24,12 @@ var Roots = {
     init: function() {
       // JavaScript to be fired on all pages
       
+      var checkDiv = $('.modal-body p');
+      if (checkDiv.attr("id") == "form_success") {
+        	$("#book-modal").modal('show');
+      }
+});
+      
     }
   },
   // Home page
