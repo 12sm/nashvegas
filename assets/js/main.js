@@ -28,9 +28,8 @@ var Roots = {
       if (checkDiv.attr("id") == "form_success") {
         	$("#book-modal").modal('show');
       }
-});
-      
     }
+      
   },
   // Home page
   home: {
