@@ -261,11 +261,6 @@ span.vfb-span label,
 display: none;
 }
 
-/* Hides Security Question */
-li.vfb-item.vfb-item-secret {
-display: none!important;
-}
-
 
 
 .songs-home {
